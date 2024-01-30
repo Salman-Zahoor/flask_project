@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'nutrimte'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A546B90551C4494BB9F9EE224EB9FDA1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1D0C9B96322E451B8C2827F5996FC08D }}
