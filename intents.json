@@ -1,0 +1,1670 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your nutritional needs today?",
+        "Hi there! I'm here to help you with nutrition. What can I do for you?",
+        "Good day! I'm your nutrition chatbot. How can I support you?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How is your day?"
+      ],
+      "responses": [
+        "I'm a chatbot, so I don't have feelings, but I'm here and ready to help with your nutrition questions!"
+      ]
+    },
+    {
+      "tag": "good_response",
+      "patterns": [
+        "I'm good",
+        "Im good",
+        "Im doing good",
+        "I am good",
+        "I am okay"
+      ],
+      "responses": [
+        "Great to hear you are doing well! How can I assist you in maintaining a healthy lifestyle?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Goodbye! If you have more nutrition questions, feel free to come back anytime.",
+        "See you later! Stay healthy!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "thx", "thnks"],
+      "responses": ["You're welcome! If you have more questions, feel free to ask."]
+    },
+    {
+      "tag": "nutrients",
+      "patterns": [
+        "What are essential nutrients?",
+        "Tell me about macronutrients",
+        "What are micronutrients?",
+        "Why are vitamins important?",
+        "Importance of minerals in diet"
+      ],
+      "responses": [
+        "Essential nutrients include macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins and minerals). They are crucial for overall health and well-being."
+      ]
+    },
+    {
+      "tag": "healthy_diet",
+      "patterns": [
+        "What constitutes a healthy diet?",
+        "Tell me about a balanced diet",
+        "How to eat healthy",
+        "Guide to a nutritious diet"
+      ],
+      "responses": [
+        "A healthy diet includes a variety of fruits, vegetables, lean proteins, whole grains, and healthy fats. It's important to balance your meals and stay hydrated."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "How to lose weight?",
+        "Tips for weight loss",
+        "Effective weight loss strategies",
+        "Healthy weight loss"
+      ],
+      "responses": [
+        "Weight loss involves a combination of a balanced diet, regular exercise, and maintaining a calorie deficit. Consult a healthcare professional for personalized advice."
+      ]
+    },
+    {
+      "tag": "nutritional_supplements",
+      "patterns": [
+        "Are nutritional supplements necessary?",
+        "Should I take supplements?",
+        "Guide to dietary supplements"
+      ],
+      "responses": [
+        "Nutritional supplements may be necessary for specific cases, but it's best to get nutrients from a balanced diet. Consult with a healthcare professional before taking supplements."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "Dealing with food allergies",
+        "Nutrition for allergy sufferers",
+        "Allergen-free diets"
+      ],
+      "responses": [
+        "Managing food allergies involves avoiding trigger foods, reading labels carefully, and consulting with a healthcare professional for personalized advice."
+      ]
+    },
+    {
+      "tag": "breakfast_option1",
+      "patterns": ["Healthy breakfast choices", "Nutritious morning meal", "Health-focused options"],
+      "responses": [
+        "Kickstart your day with a nutritious breakfast! Try options like a Greek yogurt parfait with fresh berries or a smoothie bowl packed with greens and fruits.",
+        "Fuel your body with health-focused breakfast choices such as a chia seed pudding with almond milk or a whole grain toast topped with avocado and poached eggs.",
+        "Nourish yourself in the morning with nutrient-rich options like a quinoa and fruit bowl or a vegetable and egg white omelet."
+      ]
+    },
+    {
+      "tag": "breakfast_option2",
+      "patterns": ["Protein packed breakfast", "High-protein morning meal", "Protein rich options"],
+      "responses": [
+        "Energize your morning with protein-packed choices! Consider a protein smoothie with spinach and almond butter or a breakfast burrito loaded with lean meats and veggies.",
+        "Support muscle health with high-protein breakfast options like a cottage cheese and fruit bowl or a turkey and vegetable scramble.",
+        "Start your day strong with protein-rich breakfasts such as a salmon and cream cheese bagel or a protein pancake stack with Greek yogurt."
+      ]
+    },
+    {
+      "tag": "breakfast_option3",
+      "patterns": ["Vegetarian breakfast ideas", "Meatless morning meal", "Vegetarian options"],
+      "responses": [
+        "Enjoy a meatless morning with vegetarian breakfast ideas! Try a veggie-packed omelet, overnight oats with almond milk, or a tofu and vegetable breakfast stir-fry.",
+        "Fuel your day with plant-based options such as a spinach and mushroom frittata or a fruit and nut smoothie bowl without any animal products.",
+        "Nourish your body with vegetarian choices like avocado toast with cherry tomatoes or a quinoa and black bean breakfast bowl."
+      ]
+    },
+    {
+      "tag": "breakfast_option4",
+      "patterns": ["Gluten free breakfast", "Celiac friendly morning meal", "Gluten conscious options"],
+      "responses": [
+        "Start your day gluten-free! Consider options like gluten-free oats with mixed berries or a sweet potato and kale breakfast hash.",
+        "Support a gluten-conscious diet with choices such as a gluten-free banana bread muffin or a yogurt parfait with gluten-free granola.",
+        "Nourish your body with gluten-free options like a vegetable and egg quinoa bowl or a gluten-free smoothie made with almond milk."
+      ]
+    },
+    {
+      "tag": "breakfast_option5",
+      "patterns": ["Quick and easy breakfast", "Effortless morning meal", "Time friendly options"],
+      "responses": [
+        "Short on time? Opt for quick and easy breakfast choices like a peanut butter and banana wrap or a pre-made breakfast smoothie.",
+        "Simplify your morning routine with time-friendly options such as a make-ahead chia seed pudding or a yogurt parfait with pre-cut fruits.",
+        "Nourish yourself on busy mornings with easy breakfasts like a grab-and-go protein bar or a pre-packaged fruit and nut mix."
+      ]
+    },
+    {
+      "tag": "breakfast_option6",
+      "patterns": ["Low carb breakfast", "Carb conscious morning meal", "Low carbohydrate options"],
+      "responses": [
+        "Keep it low-carb in the morning! Consider options like a smoked salmon and cream cheese roll-up or a vegetable and cheese frittata.",
+        "Support a low-carbohydrate lifestyle with choices such as a cauliflower and broccoli breakfast casserole or a spinach and feta egg muffin.",
+        "Start your day with low-carb options like a keto-friendly smoothie or an avocado and bacon breakfast salad."
+      ]
+    },
+    {
+      "tag": "breakfast_option7",
+      "patterns": ["Energizing breakfast", "Wake-up morning meal", "Energy boosting options"],
+      "responses": [
+        "Boost your energy in the morning! Try energizing breakfast choices like a green tea and berry smoothie or a matcha-infused oatmeal bowl.",
+        "Fuel your day with wake-up options such as a citrus and yogurt parfait or a high-energy protein smoothie with a hint of caffeine.",
+        "Nourish yourself with energy-boosting options like a breakfast trail mix with nuts and dried fruits or a quick shot of wheatgrass."
+      ]
+    },
+    {
+      "tag": "breakfast_option8",
+      "patterns": ["Kid friendly breakfast", "Child approved morning meal", "Family friendly options"],
+      "responses": [
+        "Make mornings fun for kids! Consider kid-friendly breakfast options like whole grain banana pancakes or a colorful fruit skewer with yogurt dip.",
+        "Optimize family breakfasts with child-approved choices such as a peanut butter and jelly sandwich on whole wheat bread or a yogurt parfait bar with various toppings.",
+        "Nourish your little ones with family-friendly options like a fruit and cheese breakfast quesadilla or a playful cereal and milk smoothie."
+      ]
+    },
+    {
+      "tag": "breakfast_option9",
+      "patterns": ["Post workout breakfast", "Recovery morning meal", "Exercise friendly options"],
+      "responses": [
+        "Refuel after a workout with post-workout breakfast choices! Try options like a protein-packed smoothie bowl or whole grain toast with almond butter and banana slices.",
+        "Support recovery with exercise-friendly choices such as a cottage cheese and pineapple parfait or a recovery shake made with protein powder and berries.",
+        "Nourish your body post-exercise with options like a Greek yogurt and granola parfait or a turkey and avocado breakfast wrap."
+      ]
+    },
+    {
+      "tag": "breakfast_option10",
+      "patterns": ["Savory breakfast ideas", "Salty morning meal", "Savory options"],
+      "responses": [
+        "Satisfy savory cravings in the morning! Consider options like a breakfast burrito with eggs and black beans or a savory vegetable and cheese muffin.",
+        "Optimize your morning with salty choices such as a smoked salmon and cream cheese bagel or a vegetable and feta breakfast quiche.",
+        "Nourish yourself with savory options like a spinach and mushroom omelet or a caprese-style avocado toast."
+      ]
+    },
+    {
+      "tag": "breakfast_option11",
+      "patterns": ["Sweet breakfast treats", "Dessert inspired morning meal", "Sweet options"],
+      "responses": [
+        "Indulge in sweet breakfast treats! Try options like a banana and chocolate chip muffin or a berry and cream cheese-stuffed French toast.",
+        "Optimize your morning with dessert-inspired choices such as a cinnamon roll oatmeal bowl or a fruit and yogurt parfait with honey drizzle.",
+        "Nourish your sweet tooth with options like a chocolate banana smoothie or a vanilla and strawberry breakfast sundae."
+      ]
+    },
+    {
+      "tag": "breakfast_option12",
+      "patterns": ["High fiber breakfast", "Fiber rich morning meal", "Digestive friendly options"],
+      "responses": [
+        "Support digestive health with high-fiber breakfast choices! Try options like a bran muffin with dried fruits or a fiber-rich cereal with almond milk.",
+        "Optimize your morning with digestive-friendly choices such as a chia seed and berry smoothie or a whole grain toast with peanut butter and sliced apples.",
+        "Nourish your digestive system with options like a quinoa and mixed nuts breakfast bowl or a high-fiber fruit and nut bar."
+      ]
+    },
+    {
+      "tag": "breakfast_option13",
+      "patterns": ["Low sugar breakfast", "Sugar conscious morning meal", "Low sweetness options"],
+      "responses": [
+        "Start your day with low-sugar options! Consider choices like a sugar-free yogurt parfait with fresh berries or a low-sweetness smoothie with greens and lemon.",
+        "Optimize your morning with sugar-conscious choices such as a low-sugar granola bar or a cottage cheese and peach bowl with minimal added sweeteners.",
+        "Nourish yourself with low-sweetness options like a green tea and almond chia pudding or a low-sugar oatmeal with nuts and seeds."
+      ]
+    },
+    {
+      "tag": "breakfast_option14",
+      "patterns": ["Mood boosting breakfast", "Emotional wellness morning meal", "Happy options"],
+      "responses": [
+        "Enhance your mood with breakfast choices that promote emotional wellness! Try options like a serotonin-boosting banana and walnut smoothie or a mood-boosting dark chocolate and berry parfait.",
+        "Optimize your morning with happy choices such as a mood-lifting orange and mango smoothie or a breakfast bowl with mood-boosting berries and nuts.",
+        "Nourish your emotional well-being with options like a happiness-inducing pineapple and coconut yogurt bowl or a mood-enhancing cinnamon and apple oatmeal."
+      ]
+    },
+    {
+      "tag": "breakfast_option15",
+      "patterns": ["Low calorie breakfast", "Calorie conscious morning meal", "Light options"],
+      "responses": [
+        "Start your day on a light note with low-calorie breakfast choices! Consider options like a fruit and vegetable smoothie bowl or a light egg white and vegetable omelet.",
+        "Optimize your morning with calorie-conscious choices such as a low-calorie Greek yogurt parfait or a vegetable and hummus breakfast wrap.",
+        "Nourish yourself with low-calorie options like a calorie-friendly fruit salad or a light whole grain toast with cream cheese and cucumber slices."
+      ]
+    },
+    {
+      "tag": "breakfast_option16",
+      "patterns": ["Hydrating breakfast", "Water rich morning meal", "Fluid filled options"],
+      "responses": [
+        "Stay hydrated with breakfast choices rich in fluids! Try options like a hydrating watermelon and cucumber smoothie or a refreshing coconut water and fruit bowl.",
+        "Optimize your morning with fluid-filled choices such as a hydrating green tea and mint smoothie or a water-rich citrus and berry breakfast salad.",
+        "Nourish yourself with options like a hydration-boosting celery and apple juice or a morning coconut water and chia seed pudding."
+      ]
+    },
+    {
+      "tag": "breakfast_option17",
+      "patterns": ["Breakfast for weight loss", "Weight conscious morning meal", "Slimming options"],
+      "responses": [
+        "Support your weight loss goals with breakfast choices like a protein-packed smoothie or a veggie and egg scramble.",
+        "Optimize your morning for weight loss with slimming options such as a low-calorie fruit salad or a weight-conscious Greek yogurt parfait.",
+        "Nourish yourself with options like a metabolism-boosting green tea and avocado smoothie or a weight-friendly vegetable and quinoa breakfast bowl."
+      ]
+    },
+    {
+      "tag": "breakfast_option18",
+      "patterns": ["Dairy free breakfast", "No dairy morning meal", "Dairy conscious options"],
+      "responses": [
+        "For a dairy-free breakfast, try options like almond milk smoothies, coconut yogurt with fruit, or a dairy-free protein shake.",
+        "Optimize your morning without dairy with choices such as a dairy-free chia seed pudding or a coconut milk and berry smoothie.",
+        "Nourish yourself with dairy-conscious options like a lactose-free vegetable and tofu scramble or a dairy-free avocado and banana breakfast smoothie."
+      ]
+    },
+    {
+      "tag": "breakfast_option19",
+      "patterns": ["Filling breakfast ideas", "Satisfying morning meals", "Hearty options"],
+      "responses": [
+        "Stay satisfied until lunch with filling breakfast choices like oatmeal with nuts and seeds, a breakfast burrito, or a hearty vegetable omelet.",
+        "Optimize your morning with hearty options such as a filling quinoa and black bean breakfast bowl or a protein-packed oat and nut granola.",
+        "Nourish yourself with options like a substantial sweet potato and egg hash or a hearty whole grain toast with nut butter and sliced banana."
+      ]
+    },
+    {
+      "tag": "breakfast_option20",
+      "patterns": ["Low cholesterol breakfast", "Heart healthy morning meal", "Cholesterol conscious options"],
+      "responses": [
+        "Promote heart health with low-cholesterol breakfast options like oat bran cereal, whole grain toast with avocado, or a fruit and nut smoothie.",
+        "Optimize your morning for heart health with choices such as a cholesterol-conscious fruit and oat parfait or a heart-friendly vegetable and quinoa scramble.",
+        "Nourish yourself with cholesterol-conscious options like a cholesterol-lowering almond and blueberry smoothie or a low-cholesterol spinach and mushroom omelet."
+      ]
+    },
+    {
+      "tag": "breakfast_option21",
+      "patterns": ["Budget friendly breakfast", "Economical morning meals", "Affordable options"],
+      "responses": [
+        "Save on breakfast costs with budget-friendly choices like oatmeal, banana pancakes, or a simple peanut butter and banana sandwich.",
+        "Optimize your morning with economical options such as a budget-friendly vegetable and egg scramble or a low-cost yogurt and granola parfait.",
+        "Nourish yourself with budget-conscious options like a cost-effective fruit and nut smoothie or a thrifty whole grain toast with honey."
+      ]
+    },
+    {
+      "tag": "breakfast_option22",
+      "patterns": ["Anti inflammatory breakfast", "Inflammation reducing morning meal", "Anti inflammatory options"],
+      "responses": [
+        "Support anti-inflammatory goals with breakfast choices like a turmeric smoothie, chia seed pudding with berries, or a spinach and mushroom omelet.",
+        "Optimize your morning for inflammation reduction with choices such as an anti-inflammatory ginger and pineapple smoothie or a soothing cinnamon and apple oatmeal.",
+        "Nourish yourself with anti-inflammatory options like an inflammation-reducing green tea and berry bowl or a breakfast parfait with anti-inflammatory nuts and seeds."
+      ]
+    }, {
+      "tag": "lunch_option1",
+      "patterns": ["Healthy lunch choices", "Nutritious lunch options", "Smart lunch ideas"],
+      "responses": [
+        "Fuel your body with a nutritious lunch by choosing options like grilled salmon with quinoa and roasted vegetables.",
+        "Optimize your midday meal with a healthy salad featuring mixed greens, cherry tomatoes, avocado, and a lean protein source.",
+        "Nourish your body with a smart lunch choice, such as a vegetable stir-fry with tofu or a whole grain wrap with lean turkey and veggies."
+      ]
+    },
+    {
+      "tag": "lunch_option2",
+      "patterns": ["Low calorie lunch", "Calorie conscious lunch ideas", "Light lunch options"],
+      "responses": [
+        "Keep your lunch light and low in calories with choices like a colorful vegetable soup or a salad with a light vinaigrette dressing.",
+        "Optimize your midday meal with a calorie-conscious option, such as a grilled chicken and vegetable skewer plate or a quinoa salad with citrus dressing.",
+        "Enjoy a light lunch with options like a tuna salad lettuce wrap or a vegetable and hummus platter."
+      ]
+    },
+    {
+      "tag": "lunch_option3",
+      "patterns": ["Vegetarian lunch ideas", "Plant based lunch", "Meatless options for lunch"],
+      "responses": [
+        "Explore vegetarian lunch options with choices like a chickpea and vegetable curry or a quinoa and black bean bowl.",
+        "Nourish your body with plant-based goodness, such as a lentil and vegetable stir-fry or a Mediterranean-style stuffed bell pepper.",
+        "Enjoy a meatless midday meal with options like a caprese salad with fresh mozzarella or a spinach and feta stuffed portobello mushroom."
+      ]
+    },
+    {
+      "tag": "lunch_option4",
+      "patterns": ["Protein packed lunch", "High protein lunch ideas", "Lunch for muscle support"],
+      "responses": [
+        "Support your muscles with a protein-packed lunch, including options like grilled chicken breast with quinoa or a turkey and avocado wrap.",
+        "Optimize your midday meal with high-protein choices, such as a salmon and broccoli bowl or a lentil and vegetable protein salad.",
+        "Nourish your body with lunch options rich in protein, like a shrimp and vegetable stir-fry or a Greek yogurt and berry parfait."
+      ]
+    },
+    {
+      "tag": "lunch_option5",
+      "patterns": ["Gluten free lunch", "Celiac friendly lunch ideas", "No gluten options for lunch"],
+      "responses": [
+        "Explore gluten-free lunch choices with options like a quinoa and roasted vegetable bowl or a grilled shrimp and avocado salad.",
+        "Optimize your midday meal with gluten-free options, such as a chicken and vegetable curry with cauliflower rice or a gluten-free wrap with turkey and veggies.",
+        "Enjoy a lunch free from gluten with choices like a spinach and goat cheese omelet or a gluten-free pasta salad with fresh herbs."
+      ]
+    },
+    {
+      "tag": "lunch_option6",
+      "patterns": ["Quick and easy lunch", "Fast lunch ideas", "Convenient lunch options"],
+      "responses": [
+        "Save time with a quick and easy lunch like a turkey and hummus wrap or a vegetable and quinoa bowl.",
+        "Optimize your midday meal with fast choices, such as a Greek salad with pre-cooked chicken strips or a smoothie with protein powder and mixed berries.",
+        "Enjoy a convenient lunch with options like a pre-made salad jar with a variety of veggies or a rice paper roll with shrimp and fresh herbs."
+      ]
+    },
+    {
+      "tag": "lunch_option7",
+      "patterns": ["Balanced lunch", "Well-rounded lunch ideas", "Balanced nutrition for lunch"],
+      "responses": [
+        "Achieve balance in your lunch with options like a balanced grain bowl with lean protein, vegetables, and a source of healthy fats.",
+        "Optimize your midday meal with well-rounded choices, such as a quinoa and vegetable stir-fry with tofu or a chicken and avocado wrap with whole grain bread.",
+        "Nourish your body with balanced nutrition by choosing lunch options like a kale and chickpea salad with feta or a whole grain pita with hummus and veggies."
+      ]
+    },
+    {
+      "tag": "lunch_option8",
+      "patterns": ["Energy boosting lunch", "Lunch for sustained energy", "High energy lunch ideas"],
+      "responses": [
+        "Boost your energy levels with an energy-packed lunch, including options like a turkey and spinach whole grain wrap or a black bean and corn salad.",
+        "Optimize your midday meal with choices that provide sustained energy, such as a quinoa and sweet potato bowl with roasted vegetables or a grilled chicken and berry salad.",
+        "Nourish your body with high-energy lunch options like a tuna and white bean salad or a whole grain couscous with mixed nuts and dried fruits."
+      ]
+    },
+    {
+      "tag": "lunch_option9",
+      "patterns": ["Low carb lunch", "Carb conscious lunch ideas", "Reduced carbohydrate options for lunch"],
+      "responses": [
+        "Explore low-carb lunch choices with options like a zucchini noodle and shrimp stir-fry or a chicken and vegetable skewer plate.",
+        "Optimize your midday meal with carb-conscious options, such as a cauliflower rice bowl with grilled chicken or a lettuce wrap with turkey and avocado.",
+        "Enjoy a lunch low in carbohydrates with choices like a salmon and asparagus salad or a Greek salad with feta and olives."
+      ]
+    },
+    {
+      "tag": "lunch_option10",
+      "patterns": ["Heart healthy lunch", "Lunch for cardiovascular health", "Heart conscious lunch ideas"],
+      "responses": [
+        "Promote heart health with lunch choices like a salmon and quinoa bowl or a spinach and walnut salad with grilled chicken.",
+        "Optimize your midday meal with heart-healthy options, such as a vegetable and bean soup or a whole grain wrap with tuna and avocado.",
+        "Nourish your heart with lunch options like a kale and berry salad with flaxseed or a turkey and vegetable stir-fry with olive oil."
+      ]
+    },
+    {
+      "tag": "lunch_option11",
+      "patterns": ["Budget friendly lunch", "Economical lunch ideas", "Affordable lunch options"],
+      "responses": [
+        "Save on lunch costs with budget-friendly choices like a rice and bean bowl or a simple vegetable and hummus wrap.",
+        "Optimize your midday meal with economical options, such as a lentil and vegetable curry with rice or a classic peanut butter and banana sandwich.",
+        "Enjoy a cost-effective lunch with choices like a quinoa and black bean salad or a budget-friendly vegetable stir-fry."
+      ]
+    },
+    {
+      "tag": "lunch_option12",
+      "patterns": ["Anti inflammatory lunch", "Inflammation reducing lunch", "Anti inflammatory lunch options"],
+      "responses": [
+        "Support anti-inflammatory goals with lunch choices like a turmeric-infused vegetable curry or a kale and avocado salad with olive oil.",
+        "Optimize your midday meal with inflammation-reducing options, such as a salmon and sweet potato bowl or a quinoa salad with mixed berries.",
+        "Nourish your body with anti-inflammatory lunch options like a ginger and garlic shrimp stir-fry or a green tea-infused vegetable and tofu soup."
+      ]
+    },
+    {
+      "tag": "lunch_option13",
+      "patterns": ["Brain boosting lunch", "Cognitive function lunch", "Brain healthy lunch ideas"],
+      "responses": [
+        "Boost cognitive function with lunch choices like a spinach and feta omelet or a berry and kale smoothie.",
+        "Optimize your midday meal with brain-boosting options, such as a quinoa and blueberry salad or a grilled chicken and walnut wrap.",
+        "Nourish your brain with lunch options like a salmon and avocado sushi bowl or a vegetable and almond stir-fry."
+      ]
+    },
+    {
+      "tag": "lunch_option14",
+      "patterns": ["No cook lunch", "Raw lunch ideas", "No-cooking lunch options"],
+      "responses": [
+        "Enjoy a no-cook lunch with options like a Greek salad with pre-cooked chicken strips or a refreshing fruit and nut bowl.",
+        "Optimize your midday meal with no-cooking choices, such as a vegetable and hummus wrap or a tuna and white bean salad.",
+        "Nourish your body with a no-cook lunch with choices like a caprese salad with fresh mozzarella or a smoothie bowl with your favorite toppings."
+      ]
+    },
+    {
+      "tag": "lunch_option15",
+      "patterns": ["Lunch for a busy day", "On the go lunch ideas", "Busy lifestyle lunch options"],
+      "responses": [
+        "Fuel your busy day with on-the-go lunch choices like a quinoa and vegetable wrap or a protein-packed salad in a jar.",
+        "Optimize your midday meal with options that suit your busy lifestyle, such as a chicken and avocado sandwich or a pre-made salad jar with a variety of veggies.",
+        "Nourish your body on hectic days with lunch choices like a turkey and cheese roll-up or a whole grain pita with hummus and sliced veggies."
+      ]
+    },
+    {
+      "tag": "lunch_option16",
+      "patterns": ["Lunch for a lazy day", "Relaxed lunch ideas", "Lazy day lunch options"],
+      "responses": [
+        "Enjoy a leisurely lunch on lazy days with choices like a vegetable and cheese quesadilla or a classic tomato and mozzarella sandwich.",
+        "Optimize your midday meal with relaxed options, such as a Mediterranean-style hummus plate with pita or a spinach and feta stuffed portobello mushroom.",
+        "Nourish your body on lazy days with lunch choices like a fruit and yogurt parfait or a simple avocado and tomato salad."
+      ]
+    },
+    {
+      "tag": "lunch_option17",
+      "patterns": ["Lunch for a special occasion", "Celebratory lunch ideas", "Special day lunch options"],
+      "responses": [
+        "Celebrate special occasions with lunch choices like a grilled shrimp and avocado salad or a festive chicken and vegetable skewer platter.",
+        "Optimize your midday meal with options suitable for celebrations, such as a quinoa and fruit salad with a honey-lime dressing or a classic Caesar salad with grilled chicken.",
+        "Nourish your body on special occasions with lunch choices like a gourmet turkey and cranberry sandwich or a sushi platter with a variety of rolls."
+      ]
+    },
+    {
+      "tag": "lunch_option18",
+      "patterns": ["Lunch for a rainy day", "Comforting lunch ideas", "Rainy day lunch options"],
+      "responses": [
+        "Find comfort on rainy days with lunch choices like a warm and hearty vegetable soup or a classic grilled cheese sandwich with a side of tomato soup.",
+        "Optimize your midday meal with comforting options, such as a creamy chicken and wild rice casserole or a bowl of chili with avocado and cilantro.",
+        "Nourish your body on gloomy days with lunch choices like a roasted butternut squash and sage pasta or a cozy lentil stew with crusty bread."
+      ]
+    },{
+      "tag": "dinner_option1",
+      "patterns": ["Protein packed dinner", "High protein meal ideas", "Dinner for muscle building"],
+      "responses": [
+        "Fuel your muscles with a protein-packed dinner like grilled salmon with quinoa and roasted vegetables.",
+        "Optimize your dinner with high-protein options, such as a lean turkey and vegetable stir-fry or lentil soup with a side of whole-grain bread.",
+        "Nourish your body with a protein-rich meal like baked chicken breast with sweet potato wedges and steamed broccoli."
+      ]
+    },
+    {
+      "tag": "dinner_option2",
+      "patterns": ["Low carb dinner", "Carb conscious meal ideas", "Dinner for weight management"],
+      "responses": [
+        "Support weight management with a low-carb dinner like cauliflower rice with vegetable curry and grilled shrimp.",
+        "Optimize your dinner with carb-conscious choices, such as a zucchini noodle bowl with lean beef or a spinach and feta-stuffed chicken breast.",
+        "Nourish your body with a low-carb meal like grilled vegetables with tofu or a shrimp and avocado salad."
+      ]
+    },
+    {
+      "tag": "dinner_option3",
+      "patterns": ["Mediterranean inspired dinner", "Healthy Mediterranean meal ideas", "Dinner with olive oil and herbs"],
+      "responses": [
+        "Enjoy the flavors of the Mediterranean with dinner options like grilled Mediterranean chicken with couscous and Greek salad.",
+        "Optimize your dinner with a Mediterranean twist, such as baked fish with olive tapenade or a chickpea and vegetable stew.",
+        "Nourish your body with a Mediterranean-inspired meal like stuffed grape leaves with quinoa and roasted vegetables."
+      ]
+    },
+    {
+      "tag": "dinner_option4",
+      "patterns": ["Vegetarian dinner", "Meatless meal ideas", "Dinner without meat"],
+      "responses": [
+        "Explore meatless options with a vegetarian dinner like eggplant lasagna with spinach and ricotta.",
+        "Optimize your dinner with plant-based choices, such as black bean and vegetable stir-fry or a lentil and sweet potato curry.",
+        "Nourish your body with a vegetarian meal like roasted vegetable and quinoa-stuffed bell peppers."
+      ]
+    },
+    {
+      "tag": "dinner_option5",
+      "patterns": ["Quick and easy dinner", "Fast dinner ideas", "Dinner in under 30 minutes"],
+      "responses": [
+        "Save time with a quick and easy dinner like shrimp and broccoli stir-fry with brown rice.",
+        "Optimize your dinner with fast choices, such as a caprese salad with whole-grain pita or a turkey and avocado wrap.",
+        "Nourish your body with a speedy meal like vegetable and chickpea curry served over quinoa."
+      ]
+    },
+    {
+      "tag": "dinner_option6",
+      "patterns": ["Anti inflammatory dinner", "Inflammation reducing meal ideas", "Dinner for joint health"],
+      "responses": [
+        "Support anti-inflammatory goals with dinner choices like a turmeric-infused vegetable curry or a kale and avocado salad with olive oil.",
+        "Optimize your dinner with inflammation-reducing options, such as a salmon and sweet potato bowl or a quinoa salad with mixed berries.",
+        "Nourish your body with anti-inflammatory dinner options like a ginger and garlic shrimp stir-fry or a green tea-infused vegetable and tofu soup."
+      ]
+    },
+    {
+      "tag": "dinner_option7",
+      "patterns": ["Brain boosting dinner", "Cognitive function dinner", "Dinner for brain health"],
+      "responses": [
+        "Boost cognitive function with dinner choices like a spinach and feta omelet or a berry and kale smoothie.",
+        "Optimize your dinner with brain-boosting options, such as a quinoa and blueberry salad or a grilled chicken and walnut wrap.",
+        "Nourish your brain with dinner options like a salmon and avocado sushi bowl or a vegetable and almond stir-fry."
+      ]
+    },
+    {
+      "tag": "dinner_option8",
+      "patterns": ["No cook dinner", "Raw dinner ideas", "No cooking dinner options"],
+      "responses": [
+        "Enjoy a no-cook dinner with options like a Greek salad with pre-cooked chicken strips or a refreshing fruit and nut bowl.",
+        "Optimize your dinner with no-cooking choices, such as a vegetable and hummus wrap or a tuna and white bean salad.",
+        "Nourish your body with a no-cook dinner with choices like a caprese salad with fresh mozzarella or a smoothie bowl with your favorite toppings."
+      ]
+    },
+    {
+      "tag": "dinner_option9",
+      "patterns": ["Dinner for a busy day", "On the go dinner ideas", "Busy lifestyle dinner options"],
+      "responses": [
+        "Fuel your busy day with on-the-go dinner choices like a quinoa and vegetable wrap or a protein-packed salad in a jar.",
+        "Optimize your dinner with options that suit your busy lifestyle, such as a chicken and avocado sandwich or a pre-made salad jar with a variety of veggies.",
+        "Nourish your body on hectic days with dinner choices like a turkey and cheese roll-up or a whole grain pita with hummus and sliced veggies."
+      ]
+    },
+    {
+      "tag": "dinner_option10",
+      "patterns": ["Dinner for a lazy day", "Relaxed dinner ideas", "Lazy day dinner options"],
+      "responses": [
+        "Enjoy a leisurely dinner on lazy days with choices like a vegetable and cheese quesadilla or a classic tomato and mozzarella sandwich.",
+        "Optimize your dinner with relaxed options, such as a Mediterranean-style hummus plate with pita or a spinach and feta stuffed portobello mushroom.",
+        "Nourish your body on lazy days with dinner choices like a fruit and yogurt parfait or a simple avocado and tomato salad."
+      ]
+    },
+    {
+      "tag": "dinner_option11",
+      "patterns": ["Dinner for a special occasion", "Celebratory dinner ideas", "Special day dinner options"],
+      "responses": [
+        "Celebrate special occasions with dinner choices like a grilled steak with garlic butter and roasted vegetables or a lobster and shrimp risotto.",
+        "Optimize your dinner for celebratory moments, such as a stuffed chicken breast with cranberry sauce or a filet mignon with mushroom reduction.",
+        "Nourish your body on special days with dinner options like a salmon and asparagus bundle or a vegetable and goat cheese tart."
+      ]
+    },
+    {
+      "tag": "dinner_option12",
+      "patterns": ["Seasonal dinner", "Fresh seasonal meal ideas", "Dinner with seasonal produce"],
+      "responses": [
+        "Embrace seasonal flavors with dinner choices like a butternut squash and sage risotto or a grilled vegetable and quinoa bowl.",
+        "Optimize your dinner with seasonal options, such as a pumpkin and spinach lasagna or a citrus-infused grilled chicken salad.",
+        "Nourish your body with seasonal dinner options like a roasted root vegetable medley or a strawberry and arugula salad."
+      ]
+    },
+    {
+      "tag": "dinner_option13",
+      "patterns": ["Budget friendly dinner", "Economical meal ideas", "Dinner on a budget"],
+      "responses": [
+        "Save money with budget-friendly dinner choices like a rice and black bean bowl with salsa or a vegetable and lentil stew.",
+        "Optimize your dinner with economical options, such as a pasta with marinara sauce and vegetables or a chickpea and potato curry.",
+        "Nourish your body without breaking the bank with dinner options like a quinoa and vegetable stir-fry or a simple black bean and corn salad."
+      ]
+    },
+    {
+      "tag": "dinner_option14",
+      "patterns": ["Gluten free dinner", "Celiac friendly meal ideas", "Dinner without gluten"],
+      "responses": [
+        "Enjoy a gluten-free dinner with choices like a grilled chicken and vegetable skewer or a quinoa and black bean salad.",
+        "Optimize your dinner with gluten-free options, such as a cauliflower crust pizza with your favorite toppings or a shrimp and vegetable stir-fry with gluten-free soy sauce.",
+        "Nourish your body with gluten-free dinner options like a sweet potato and kale hash or a grilled fish taco bowl with gluten-free tortillas."
+      ]
+    },
+    {
+      "tag": "dinner_option15",
+      "patterns": ["Dinner for weight loss", "Weight management meal ideas", "Healthy dinner for losing weight"],
+      "responses": [
+        "Support weight loss goals with dinner choices like a grilled vegetable and quinoa bowl or a chicken and vegetable soup.",
+        "Optimize your dinner for weight management, such as a spinach and strawberry salad with balsamic vinaigrette or a lean turkey and vegetable stir-fry.",
+        "Nourish your body on the journey to weight loss with dinner options like a blackened fish taco bowl or a cauliflower and broccoli rice stir-fry."
+      ]
+    },
+    {
+      "tag": "dinner_option16",
+      "patterns": ["Dinner for muscle recovery", "Post workout meal ideas", "Recovery meal after exercise"],
+      "responses": [
+        "Support muscle recovery after a workout with dinner choices like a grilled chicken and quinoa salad or a turkey and sweet potato hash.",
+        "Optimize your dinner for post-workout recovery, such as a protein-packed smoothie with berries and Greek yogurt or a salmon and asparagus quinoa bowl.",
+        "Nourish your body post-exercise with dinner options like a lentil and vegetable curry or a whole-grain wrap with lean turkey and hummus."
+      ]
+    },
+    {
+      "tag": "dinner_option17",
+      "patterns": ["Dinner for heart health", "Cardiovascular friendly meal ideas", "Heart healthy dinner"],
+      "responses": [
+        "Promote heart health with dinner choices like a grilled fish taco bowl with avocado salsa or a spinach and chickpea salad with olive oil.",
+        "Optimize your dinner for cardiovascular well-being, such as a quinoa and kale-stuffed bell pepper or a vegetable and bean chili with heart-healthy spices.",
+        "Nourish your heart with dinner options like a salmon and vegetable kebab or a brown rice and black bean bowl with heart-healthy avocado."
+      ]
+    },
+    {
+      "tag": "dinner_option18",
+      "patterns": ["Dinner for glowing skin", "Skin friendly meal ideas", "Dinner for healthy skin"],
+      "responses": [
+        "Enhance skin health with dinner choices like a kale and blueberry salad with walnuts or a grilled shrimp and avocado bowl.",
+        "Optimize your dinner for a radiant complexion, such as a vegetable and quinoa stir-fry with skin-loving nutrients or a spinach and strawberry salad with almonds.",
+        "Nourish your skin with dinner options like a tomato and basil quinoa bowl or a sweet potato and spinach salad with olive oil."
+      ]
+    },
+    {
+      "tag": "dinner_option19",
+      "patterns": ["Dinner for a good night's sleep", "Sleep friendly meal ideas", "Dinner for better sleep"],
+      "responses": [
+        "Support a restful night's sleep with dinner choices like a turkey and vegetable stir-fry with jasmine rice or a warm bowl of vegetable and lentil soup.",
+        "Optimize your dinner for better sleep, such as a grilled chicken and quinoa bowl with chamomile tea or a salmon and sweet potato curry with sleep-inducing nutrients.",
+        "Nourish your body for bedtime with dinner options like a yogurt and berry parfait or a whole-grain wrap with turkey and lettuce."
+      ]
+    },
+    {
+      "tag": "dinner_option20",
+      "patterns": ["Dinner for digestive health", "Digestion friendly meal ideas", "Healthy dinner for gut health"],
+      "responses": [
+        "Promote digestive health with dinner choices like a vegetable and chickpea curry with turmeric or a Greek yogurt and cucumber salad.",
+        "Optimize your dinner for gut health, such as a quinoa and vegetable stir-fry with probiotic-rich kimchi or a lentil and spinach salad with fiber.",
+        "Nourish your digestive system with dinner options like a salmon and asparagus quinoa bowl or a black bean and corn salsa with digestive-friendly ingredients."
+      ]
+    },
+    {
+      "tag": "dinner_option21",
+      "patterns": ["Dinner for energy", "Energetic meal ideas", "Dinner for a boost of energy"],
+      "responses": [
+        "Boost your energy levels with dinner choices like a whole-grain wrap with turkey and avocado or a vegetable and tofu stir-fry.",
+        "Optimize your dinner for sustained energy, such as a quinoa and black bean bowl with salsa or a grilled chicken and vegetable skewer.",
+        "Nourish your body for vitality with dinner options like a lentil and sweet potato curry or a spinach and feta omelet with whole-grain toast."
+      ]
+    },
+    {
+      "tag": "pre_workout1",
+      "patterns": ["Pre workout warm up", "Warm up exercises", "Prepare for exercise"],
+      "responses": [
+        "Get your body ready for exercise with a dynamic warm-up routine, including leg swings, arm circles, and light jogging in place.",
+        "Start your pre-workout session with warm-up exercises like jumping jacks, high knees, and dynamic stretches to increase blood flow and flexibility.",
+        "Prepare your muscles for activity by incorporating warm-up exercises such as lunges, shoulder rolls, and torso twists into your routine."
+      ]
+    },
+    {
+      "tag": "pre_workout2",
+      "patterns": ["Cardiovascular pre workout", "Cardio warm up", "Boost heart rate before exercise"],
+      "responses": [
+        "Elevate your heart rate with cardiovascular pre-workout activities like jumping rope, running in place, or a quick cycling session.",
+        "Increase blood circulation and warm up your cardiovascular system by including activities like mountain climbers, burpees, and brisk walking in your pre-workout routine.",
+        "Boost your heart rate before exercise with dynamic cardio warm-up exercises such as high-intensity interval training (HIIT), jumping jacks, and butt kicks."
+      ]
+    },
+    {
+      "tag": "pre_workout3",
+      "patterns": ["Stretching before workout", "Flexibility warm up", "Pre exercise stretches"],
+      "responses": [
+        "Improve flexibility and prevent injuries by incorporating dynamic stretches like leg swings, arm circles, and hip circles into your pre-workout routine.",
+        "Enhance your range of motion with pre-exercise stretches such as toe touches, neck stretches, and side lunges to prepare your muscles for activity.",
+        "Include dynamic stretching in your warm-up, focusing on areas like the hamstrings, quadriceps, and shoulders, to optimize your flexibility before a workout."
+      ]
+    },
+    {
+      "tag": "pre_workout4",
+      "patterns": ["Strength-building warm up", "Prep muscles for strength training", "Activate muscles before lifting"],
+      "responses": [
+        "Activate key muscle groups with strength-building warm-up exercises like bodyweight squats, push-ups, and planks before engaging in weightlifting.",
+        "Prepare your body for strength training by incorporating resistance band exercises, such as lateral walks and band pull-aparts, into your pre-workout routine.",
+        "Enhance muscle engagement and readiness for lifting with strength-building warm-ups like medicine ball slams, kettlebell swings, and bodyweight lunges."
+      ]
+    },
+    {
+      "tag": "pre_workout5",
+      "patterns": ["Joint mobility pre exercise", "Prevent joint stiffness", "Joint friendly warm up"],
+      "responses": [
+        "Promote joint mobility and reduce stiffness by incorporating pre-exercise movements such as wrist circles, ankle circles, and shoulder rolls.",
+        "Prevent joint discomfort with a joint-friendly warm-up routine, including movements like knee hugs, elbow circles, and neck rotations.",
+        "Ensure optimal joint mobility before exercise by including dynamic stretches and movements that target areas prone to stiffness, such as the hips, knees, and shoulders."
+      ]
+    },
+    {
+      "tag": "pre_workout6",
+      "patterns": ["Balance and stability warm up", "Prep for balance exercises", "Enhance stability before workout"],
+      "responses": [
+        "Improve balance and stability with pre-workout exercises like single-leg stands, heel-to-toe walks, and stability ball exercises.",
+        "Enhance your ability to perform balance exercises by incorporating stability-focused warm-up movements such as toe taps, lateral leg raises, and standing leg swings.",
+        "Prep your body for activities requiring balance and stability by including dynamic warm-up exercises like side planks, bird-dogs, and stability ball marches."
+      ]
+    },
+    {
+      "tag": "pre_workout7",
+      "patterns": ["Agility pre workout", "Boost agility before exercise", "Agility focused warm up"],
+      "responses": [
+        "Enhance agility and coordination with pre-workout activities like ladder drills, cone drills, and quick footwork exercises.",
+        "Improve your ability to perform agile movements by including agility-focused warm-up exercises such as lateral shuffles, box jumps, and zig-zag sprints.",
+        "Boost your agility before exercise by incorporating dynamic warm-up routines that challenge your coordination, speed, and quick reflexes."
+      ]
+    },
+    {
+      "tag": "pre_workout8",
+      "patterns": ["Mental focus before workout", "Prepare mentally for exercise", "Mind body warm up"],
+      "responses": [
+        "Enhance mental focus and concentration before a workout with mindfulness practices, such as deep breathing, meditation, or visualization.",
+        "Boost your mind-body connection by incorporating mental focus exercises like mindful walking, progressive muscle relaxation, and positive affirmations into your pre-workout routine.",
+        "Prepare your mind for exercise by engaging in mental focus activities that promote a positive mindset and readiness for physical activity."
+      ]
+    },
+    {
+      "tag": "pre_workout9",
+      "patterns": ["Functional movement warm up", "Prep for functional exercises", "Functional fitness pre exercise"],
+      "responses": [
+        "Activate functional movement patterns with pre-workout exercises like squats, lunges, and hip hinges to prepare your body for functional fitness activities.",
+        "Improve your performance in functional exercises by incorporating warm-up movements such as bear crawls, kettlebell swings, and resistance band pull-aparts.",
+        "Optimize your readiness for functional fitness with dynamic warm-ups that mimic movements used in activities of daily living, ensuring your body is prepared for varied challenges."
+      ]
+    },
+    {
+      "tag": "pre_workout10",
+      "patterns": ["Pre workout yoga", "Yoga warm up", "Yoga for exercise preparation"],
+      "responses": [
+        "Incorporate pre-workout yoga into your routine with poses like downward dog, cat-cow, and sun salutations to improve flexibility and focus.",
+        "Prepare your body for exercise with a yoga warm-up that includes poses such as warrior sequences, forward folds, and spinal twists.",
+        "Enhance your mind-body connection and flexibility by engaging in pre-workout yoga, promoting a sense of calmness and physical readiness for exercise."
+      ]
+    },
+    {
+      "tag": "pre_workout11",
+      "patterns": ["Pre workout foam rolling", "Foam rolling warm up", "Self myofascial release before exercise"],
+      "responses": [
+        "Release muscle tension and improve flexibility with pre-workout foam rolling on areas like the calves, hamstrings, and quadriceps.",
+        "Incorporate self-myofascial release into your warm-up routine by using a foam roller on target areas, such as the IT band, back, and shoulders, to enhance mobility.",
+        "Promote blood flow and reduce muscle tightness before exercise with foam rolling exercises that focus on different muscle groups throughout the body."
+      ]
+    },
+    {
+      "tag": "pre_workout12",
+      "patterns": ["High intensity warm up", "HIIT warm up", "Prepare for high intensity exercise"],
+      "responses": [
+        "Get ready for high-intensity exercise with a dynamic warm-up that includes quick bursts of activity like jumping jacks, mountain climbers, and sprints.",
+        "Optimize your performance in high-intensity workouts by incorporating a HIIT warm-up routine that challenges your cardiovascular system and primes your muscles.",
+        "Prepare your body for the intensity of exercise with a high-energy warm-up, including exercises like burpees, squat jumps, and agility drills."
+      ]
+    },
+    {
+      "tag": "pre_workout13",
+      "patterns": ["Energy boosting warm-up", "Prep for energetic exercise", "Boost energy levels before workout"],
+      "responses": [
+        "Increase energy levels before exercise with a warm-up routine that includes dynamic movements like jumping jacks, high knees, and arm circles.",
+        "Enhance your readiness for energetic workouts by incorporating energy-boosting warm-up exercises such as butt kicks, power skips, and dynamic stretches.",
+        "Promote a surge of energy before your workout with warm-up activities that focus on quick, invigorating movements to awaken your body and mind."
+      ]
+    },
+    {
+      "tag": "pre_workout14",
+      "patterns": ["Pre workout mobility drills", "Mobility warm up", "Joint mobility exercises before exercise"],
+      "responses": [
+        "Improve joint mobility and flexibility with pre-workout drills that target specific areas, such as hip circles, shoulder rotations, and ankle rolls.",
+        "Incorporate mobility-focused warm-up exercises into your routine, including dynamic movements like leg swings, wrist circles, and thoracic spine twists.",
+        "Enhance overall mobility and reduce stiffness before exercise by engaging in warm-up drills that address key joints and muscle groups throughout your body."
+      ]
+    },
+    {
+      "tag": "pre_workout15",
+      "patterns": ["Quick pre exercise routine", "Short warm up", "Efficient warm up for workouts"],
+      "responses": [
+        "Optimize your time with a quick pre-exercise routine that includes dynamic movements like jumping jacks, lunges, and torso twists.",
+        "Prepare your body efficiently for workouts by incorporating a short warm-up that targets major muscle groups through activities such as high knees, arm circles, and squats.",
+        "Save time and still warm up effectively with a brief pre-exercise routine featuring quick and impactful movements to activate your body for physical activity."
+      ]
+    },
+    {
+      "tag": "pre_workout16",
+      "patterns": ["Dance inspired warm up", "Dance before exercise", "Warm up with dance moves"],
+      "responses": [
+        "Add a touch of fun to your warm-up with dance-inspired movements like grapevines, hip shakes, and toe taps to get your body in motion.",
+        "Elevate your heart rate and warm up your muscles with dance before exercise, incorporating lively steps, twists, and jumps into your routine.",
+        "Enjoy a dance-inspired warm-up routine that not only prepares your body for exercise but also brings joy and energy to your pre-workout session."
+      ]
+    },
+    {
+      "tag": "pre_workout17",
+      "patterns": ["Pre workout stretching routine", "Stretch before exercise", "Comprehensive stretching warm up"],
+      "responses": [
+        "Engage in a thorough pre-workout stretching routine that covers major muscle groups, including the neck, shoulders, back, hips, and legs.",
+        "Promote flexibility and reduce muscle tension by incorporating a comprehensive stretching warm-up into your routine, focusing on both static and dynamic stretches.",
+        "Prepare your body for exercise with a stretching routine that includes movements like arm circles, forward bends, lunges, and torso twists to enhance overall flexibility."
+      ]
+    },
+    {
+      "tag": "pre_workout18",
+      "patterns": ["Pre workout breathing exercises", "Breathwork warm up", "Deep breathing before exercise"],
+      "responses": [
+        "Improve oxygenation and focus with pre-workout breathing exercises like diaphragmatic breathing, box breathing, and alternate nostril breathing.",
+        "Incorporate breathwork into your warm-up routine to enhance respiratory function and mental clarity before exercise, with techniques such as belly breathing and paced inhale-exhale cycles.",
+        "Prepare your body and mind for physical activity by including deep breathing exercises in your pre-workout routine, promoting relaxation and heightened awareness."
+      ]
+    },
+    {
+      "tag": "pre_workout19",
+      "patterns": ["Dynamic warm up for runners", "Running warm up", "Pre run exercises"],
+      "responses": [
+        "Optimize your running performance with a dynamic warm-up that includes leg swings, hip circles, and light jogging to prepare your muscles for the activity.",
+        "Enhance your pre-run routine with dynamic exercises such as high knees, butt kicks, and dynamic lunges to improve flexibility and warm up key muscle groups.",
+        "Ensure a successful run by incorporating a dynamic warm-up tailored for runners, focusing on movements that activate the muscles used during running."
+      ]
+    },
+    {
+      "tag": "pre_workout20",
+      "patterns": ["Pre workout cooldown", "Cool down exercises before exercise", "Cooldown routine"],
+      "responses": [
+        "Include a pre-workout cooldown routine with gentle exercises like slow jogging, walking lunges, and arm stretches to gradually bring down your heart rate.",
+        "Enhance flexibility and prevent post-exercise stiffness by incorporating a cooldown routine that includes static stretches targeting major muscle groups.",
+        "Promote recovery and reduce muscle soreness by concluding your pre-workout session with a cooldown routine featuring movements like gentle yoga poses, deep breathing, and light static stretches."
+      ]
+    },
+    {
+      "tag": "post_workout1",
+      "patterns": ["Post workout stretches", "Stretching after exercise", "Stretching routine"],
+      "responses": [
+        "After your workout, include stretches like touching your toes, calf stretches, and a seated hamstring stretch to improve flexibility and reduce muscle tension.",
+        "Enhance your flexibility post-workout with stretches such as the quad stretch, shoulder stretch, and triceps stretch.",
+        "Incorporate post-workout stretching into your routine with exercises like the chest opener stretch, hip flexor stretch, and neck stretches."
+      ]
+    },
+    {
+      "tag": "post_workout2",
+      "patterns": ["Cool down exercises", "Post exercise cooldown", "Cooling down after workout"],
+      "responses": [
+        "Cool down after your workout with exercises like walking at a slower pace, gentle jogging, and gradually decreasing the intensity of your exercise.",
+        "Include a cooldown session in your post-exercise routine, such as slow cycling, light yoga poses, and controlled breathing exercises.",
+        "Promote muscle recovery with a cooldown routine that involves low-intensity exercises like walking lunges, side shuffles, and easy cycling."
+      ]
+    },
+    {
+      "tag": "post_workout3",
+      "patterns": ["Post workout yoga", "Yoga after exercise", "Yoga for recovery"],
+      "responses": [
+        "Integrate post-workout yoga into your routine with poses like downward dog, child's pose, and the pigeon pose for relaxation and flexibility.",
+        "Enhance recovery through yoga after your workout, focusing on poses such as the warrior series, cobra pose, and the corpse pose for relaxation.",
+        "Improve flexibility and reduce muscle soreness with a post-workout yoga session that includes poses like the cat-cow stretch, seated forward bend, and the bridge pose."
+      ]
+    },
+    {
+      "tag": "post_workout4",
+      "patterns": ["Foam rolling after exercise", "Post workout foam roller", "Foam rolling routine"],
+      "responses": [
+        "Include foam rolling in your post-exercise routine to target muscles. Roll out your calves, quads, and back for enhanced muscle recovery.",
+        "Promote flexibility and reduce muscle tightness by incorporating a foam rolling routine post-workout, focusing on areas like the IT band, hamstrings, and glutes.",
+        "Enhance recovery with post-workout foam rolling exercises, targeting muscles such as the upper back, calves, and hip flexors for improved flexibility and reduced stiffness."
+      ]
+    },
+    {
+      "tag": "post_workout5",
+      "patterns": ["Strength training after workout", "Post exercise strength exercises", "Strength building post workout"],
+      "responses": [
+        "Incorporate post-workout strength training with exercises like bodyweight squats, lunges, and push-ups to further engage your muscles.",
+        "Enhance muscle development post-exercise with strength training, focusing on resistance exercises such as dumbbell curls, tricep dips, and leg raises.",
+        "Include strength-building exercises in your post-workout routine, targeting major muscle groups with moves like planks, deadlifts, and bicep curls."
+      ]
+    },
+    {
+      "tag": "post_workout6",
+      "patterns": ["Post workout meditation", "Mindfulness after exercise", "Meditation for recovery"],
+      "responses": [
+        "Promote mental well-being with post-workout meditation. Practice deep breathing, mindful awareness, and visualization for relaxation.",
+        "Include mindfulness exercises in your post-exercise routine, focusing on guided meditation, body scan, and gratitude practices for mental recovery.",
+        "Enhance your overall well-being by incorporating meditation into your post-workout routine, engaging in practices such as loving-kindness meditation, breath awareness, and progressive relaxation."
+      ]
+    },
+    {
+      "tag": "post_workout7",
+      "patterns": ["Cardio cooldown", "Post cardio exercises", "Cooling down after cardio"],
+      "responses": [
+        "Cool down after cardio workouts with exercises like brisk walking, slow jogging, and dynamic stretches to bring your heart rate gradually back to normal.",
+        "Include a post-cardio cooldown session in your routine, incorporating low-intensity activities such as cycling, gentle aerobics, and stretching.",
+        "Promote cardiovascular recovery with a dedicated cooldown after cardio exercises, engaging in activities like jumping jacks, light jogging, and easy cycling."
+      ]
+    },
+    {
+      "tag": "post_workout8",
+      "patterns": ["Post workout dance", "Dancing after exercise", "Dance routine for recovery"],
+      "responses": [
+        "Make your post-workout routine enjoyable with dancing. Move to your favorite tunes, engaging in freestyle dance or following a dance workout routine.",
+        "Enhance mood and flexibility with post-workout dance sessions. Choose dance styles like salsa, hip-hop, or Zumba for a fun and energetic recovery.",
+        "Include dance as part of your recovery routine after exercise, trying out styles such as ballet, jazz, or Latin dance for a full-body workout."
+      ]
+    },
+    {
+      "tag": "post_workout9",
+      "patterns": ["Post workout swimming", "Swimming after exercise", "Swim for recovery"],
+      "responses": [
+        "Cool down and promote muscle relaxation by incorporating post-workout swimming. Swim at a moderate pace, focusing on freestyle or breaststroke.",
+        "Include swimming in your post-exercise routine for full-body recovery. Engage in laps, water aerobics, or simply float for relaxation.",
+        "Improve cardiovascular health and flexibility with post-workout swimming. Try different strokes like backstroke, butterfly, or sidestroke for a refreshing recovery."
+      ]
+    },
+    {
+      "tag": "post_workout10",
+      "patterns": ["Post workout cycling", "Cycling after exercise", "Bike ride for recovery"],
+      "responses": [
+        "Engage in post-workout cycling to ease muscle tension. Take a leisurely bike ride, focusing on a comfortable pace and enjoying the scenery.",
+        "Promote joint flexibility and cardiovascular health by incorporating cycling into your post-exercise routine. Ride your bike at a moderate intensity for recovery.",
+        "Include cycling as part of your recovery after exercise. Opt for stationary biking, outdoor cycling, or even a casual bike ride for overall well-being."
+      ]
+    },
+    {
+      "tag": "post_workout11",
+      "patterns": ["Post workout hiking", "Hiking after exercise", "Hike for recovery"],
+      "responses": [
+        "Explore nature and aid recovery by going for a post-workout hike. Choose trails with varying terrain for added challenges and benefits.",
+        "Incorporate hiking into your post-exercise routine for a blend of cardiovascular exercise and nature therapy. Hike at a comfortable pace to enjoy the surroundings.",
+        "Improve mood and enhance recovery with post-workout hiking. Select trails that match your fitness level, allowing you to unwind while staying active."
+      ]
+    },
+    {
+      "tag": "post_workout12",
+      "patterns": ["Post workout rowing", "Rowing after exercise", "Row for recovery"],
+      "responses": [
+        "Engage in post-workout rowing to target multiple muscle groups. Row at a moderate intensity, focusing on proper form for effective recovery.",
+        "Include rowing as part of your post-exercise routine to improve cardiovascular health and strengthen your back and arms. Use a rowing machine or row in water for variety.",
+        "Promote full-body recovery with post-workout rowing exercises. Adjust the resistance and duration to match your fitness level and goals."
+      ]
+    },
+    {
+      "tag": "post_workout13",
+      "patterns": ["Post workout strength yoga", "Yoga for strength after exercise", "Strength building yoga for recovery"],
+      "responses": [
+        "Combine strength-building and flexibility with post-workout strength yoga. Include poses like warrior series, plank variations, and chair pose for a holistic recovery.",
+        "Enhance muscle tone and flexibility with strength-focused yoga after your workout. Engage in poses such as the side plank, boat pose, and crow pose.",
+        "Improve strength and balance by incorporating post-workout strength yoga into your routine. Practice poses like the tree pose, bridge pose, and warrior III for a well-rounded recovery."
+      ]
+    },
+    {
+      "tag": "post_workout14",
+      "patterns": ["Post workout kickboxing", "Kickboxing after exercise", "Kickbox for recovery"],
+      "responses": [
+        "Release stress and boost cardiovascular health with post-workout kickboxing. Incorporate punches, kicks, and dynamic movements for an energetic recovery.",
+        "Include kickboxing as part of your post-exercise routine for a full-body workout and improved endurance. Follow a kickboxing routine or engage in a class for variety.",
+        "Enhance coordination and cardiovascular fitness with post-workout kickboxing. Practice techniques like jabs, crosses, and roundhouse kicks for an effective recovery."
+      ]
+    },
+    {
+      "tag": "post_workout15",
+      "patterns": ["Post workout Tai Chi", "Tai Chi after exercise", "Tai Chi for recovery"],
+      "responses": [
+        "Promote relaxation and balance with post-workout Tai Chi. Engage in slow, flowing movements to enhance flexibility and reduce muscle tension.",
+        "Include Tai Chi in your post-exercise routine for a mindful recovery. Practice gentle Tai Chi forms, focusing on breath control and smooth transitions.",
+        "Improve overall well-being with post-workout Tai Chi exercises. Follow a Tai Chi routine or attend a class for relaxation, balance, and mental clarity."
+      ]
+    },
+    {
+      "tag": "post_workout16",
+      "patterns": ["Post workout Pilates", "Pilates after exercise", "Pilates for recovery"],
+      "responses": [
+        "Strengthen your core and improve flexibility with post-workout Pilates. Include exercises like the hundred, leg circles, and the plank for a balanced recovery.",
+        "Enhance muscle tone and body awareness through Pilates after your workout. Engage in movements such as the roll-up, side leg lifts, and the saw for effective recovery.",
+        "Improve posture and core strength with post-workout Pilates exercises. Incorporate Pilates into your routine with exercises like the teaser, the bridge, and the scissors."
+      ]
+    },
+    {
+      "tag": "post_workout17",
+      "patterns": ["Post workout barre exercises", "Barre after exercise", "Barre for recovery"],
+      "responses": [
+        "Tone and sculpt your muscles with post-workout barre exercises. Engage in movements like plies, leg lifts, and arm sculpting for a full-body recovery.",
+        "Include barre in your post-exercise routine to target specific muscle groups. Practice exercises such as the chair pose, relevé, and side leg lifts for enhanced recovery.",
+        "Enhance flexibility and strength with post-workout barre workouts. Follow a barre routine or attend a class for a dynamic and effective recovery."
+      ]
+    },
+    {
+      "tag": "post_workout18",
+      "patterns": ["Post workout high intensity interval training (HIIT)", "HIIT after exercise", "HIIT for recovery"],
+      "responses": [
+        "Boost metabolism and cardiovascular fitness with post-workout high-intensity interval training (HIIT). Include exercises like burpees, mountain climbers, and high knees for an efficient recovery.",
+        "Incorporate HIIT into your post-exercise routine for a quick and intense workout. Perform intervals of high-intensity exercises followed by short rest periods for maximum benefits.",
+        "Enhance calorie burn and cardiovascular health with post-workout HIIT sessions. Choose a variety of exercises such as squat jumps, plank jacks, and sprints for an effective recovery."
+      ]
+    },
+    {
+      "tag": "post_workout19",
+      "patterns": ["Post workout resistance band exercises", "Resistance band workout after exercise", "Resistance band for recovery"],
+      "responses": [
+        "Strengthen and tone your muscles with post-workout resistance band exercises. Include movements like bicep curls, lateral raises, and leg presses for targeted recovery.",
+        "Incorporate resistance band training into your post-exercise routine to add resistance and challenge to your workout. Engage in exercises such as chest presses, rows, and squats for effective recovery.",
+        "Enhance muscle endurance and flexibility with post-workout resistance band workouts. Follow a routine that includes exercises like tricep extensions, side leg lifts, and seated rows."
+      ]
+    },
+    {
+      "tag": "post_workout20",
+      "patterns": ["Post workout stability ball exercises", "Stability ball workout after exercise", "Stability ball for recovery"],
+      "responses": [
+        "Improve balance and core strength with post-workout stability ball exercises. Include movements like stability ball crunches, planks, and leg curls for a challenging recovery.",
+        "Incorporate stability ball workouts into your post-exercise routine to engage your stabilizing muscles. Practice exercises"
+  ]
+
+      
+    },
+    {
+      "tag": "salam",
+      "patterns": ["Hi", "Hey", "Koi hai?", "Hello", "Achha din"],
+      "responses": [
+        "Hello! Main aapki ghiza se mutalliq madad kaise kar sakta hoon?",
+        "Hi there! Main yahan hoon aapko ghiza mein madad karne ke liye. Aapke liye kya kar sakta hoon?",
+        "Achha din! Main aapka ghiza chatbot hoon. Main aapki kaise madad kar sakta hoon?"
+      ]
+    },
+    {
+      "tag": "kaise_ho",
+      "patterns": ["Kaise ho?", "Tum kaise ho?", "Tumhara din kaisa hai?"],
+      "responses": ["Main ek chatbot hoon, is liye mere paas jazbat nahi hote, lekin main yahan hoon aur tayyar hoon aapki ghiza se mutalliq sawalon mein madad karne ke liye!"]
+    },
+    {
+      "tag": "accha_jawab",
+      "patterns": ["Main theek hoon", "Main accha hoon", "Main theek hoon", "Main theek hoon", "Main theek hoon", "Main thik hoon"],
+      "responses": ["Bahut accha sunke khushi hui! Main aapko sehatmand zindagi guzarne mein kaise madad kar sakta hoon?"]
+    },
+    {
+      "tag": "alvida",
+      "patterns": ["Alvida", "Phir milenge", "Khuda hafiz"],
+      "responses": [
+        "Alvida! Agar aapke paas aur ghiza ke sawal hain, toh kabhi bhi wapas aa sakte hain.",
+        "Phir milenge! Sehatmand rahiye!"
+      ]
+    },
+    {
+      "tag": "shukriya",
+      "patterns": ["Shukriya", "Shukriya aapka", "Yeh madadgar hai", "Bohot shukriya", "thx", "thnks"],
+      "responses": ["Khair makhdam! Agar aapke aur koi sawaal hain, toh sawaal karen."]
+    },
+    {
+      "tag": "ghiza",
+      "patterns": [
+        "Essential nutrients kya hain?",
+        "Macronutrients ke baare mein batao",
+        "Micronutrients kya hote hain?",
+        "Vitamins ki ahmiyat kya hai?",
+        "Diet mein minerals ki ahmiyat"
+      ],
+      "responses": [
+        "Essential nutrients mein macronutrients (carbohydrates, proteins, fats) aur micronutrients (vitamins aur minerals) shaamil hote hain. Ye aapki sehat aur baiyat ke liye zaroori hain."
+      ]
+    },
+    {
+      "tag": "sehatmand_diet",
+      "patterns": [
+        "Sehatmand diet kya hoti hai?",
+        "Balanced diet ke baare mein batao",
+        "Sehatmand kaise khana chahiye",
+        "Nutritious diet ki guide"
+      ],
+      "responses": [
+        "Sehatmand diet mein phal, sabziyan, lean protein, whole grains, aur sehatmand fats shaamil hote hain. Zaroori hai apne khane ko balance mein rakhna aur paani peena."
+      ]
+    },
+    {
+      "tag": "wazan_ghatana",
+      "patterns": [
+        "Wazan kaise kam karein?",
+        "Wazan ghatane ke tariqe",
+        "Mufeed tariqay wazan kam karne ke liye",
+        "Sehatmand wazan kam karna"
+      ],
+      "responses": [
+        "Wazan kam karne mein ek balanced diet, regular exercise, aur calorie deficit maintain karna shamil hota hai. Personalized advice ke liye ek healthcare professional se mashwara karein."
+      ]
+    },
+    {
+      "tag": "ghizaai_supplements",
+      "patterns": [
+        "Kya ghizaai supplements zaroori hain?",
+        "Kya mujhe supplements lena chahiye?",
+        "Dietary supplements ki guide"
+      ],
+      "responses": [
+        "Ghizaai supplements kuch maamoolan zaroori ho sakte hain, lekin behtar hai ke aap apne ghiza ko ek mazboot diet se haasil karein. Supplements lenay se pehle ek healthcare professional se mashwara karein."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "Khane ke allergies se kaise deal karein",
+        "Allergy sufferers ke liye ghiza",
+        "Allergen-free diet"
+      ],
+      "responses": [
+        "Khane ke allergies ko control karne mein trigger foods se bachna, labels ko dhyan se parhna, aur ek healthcare professional se mashwara lena shamil hai."
+      ]
+    },
+    {
+      "tag": "nashta_option1",
+      "patterns": ["Sehatmand nashta choices", "Nutritious morning meal", "Sehat-focused options"],
+      "responses": [
+        "Apna din sehatmand nashte ke sath shuru karen! Koshish karen jaise ke Greek yogurt parfait with fresh berries ya phir ek smoothie bowl jo hari sabziyon aur phalon se bharpoor hai.",
+        "Apne jism ko sehat-focused breakfast choices ke sath fuel karen, jaise ke chia seed pudding with almond milk ya phir ek whole grain toast jo avocado aur poached eggs ke saath hai.",
+        "Apne aap ko subah mein poshida options ke saath poshida karen, jaise ke quinoa and fruit bowl ya phir vegetable and egg white omelet."
+      ]
+    },
+    {
+      "tag": "nashta_option2",
+      "patterns": ["Protein se bhara nashta", "High-protein morning meal", "Protein se bhare options"],
+      "responses": [
+        "Apni subah ko protein se bhara hawalaat den! Kuchh asaani se ho sakta hai jaise ke protein smoothie with spinach and almond butter ya phir ek breakfast burrito jo lean meats aur sabziyon se bhara hua hai.",
+        "Muscle health ko support karen high-protein breakfast options ke saath jaise ke cottage cheese and fruit bowl ya phir turkey and vegetable scramble.",
+        "Apna din shuru karen protein-rich breakfasts ke saath jaise ke salmon and cream cheese bagel ya phir protein pancake stack with Greek yogurt."
+      ]
+    },
+    {
+      "tag": "nashta_option3",
+      "patterns": ["Vegetarian nashta ideas", "Meatless morning meal", "Vegetarian options"],
+      "responses": [
+        "Meatless subah ko manayen vegetarian nashta ideas ke saath! Kuch aise asaan options hain jaise ke veggie-packed omelet, overnight oats with almond milk, ya tofu and vegetable breakfast stir-fry.",
+        "Apne din ko plant-based options ke saath bharpoor karen jaise ke spinach and mushroom frittata ya phir fruit and nut smoothie bowl jo kisi bhi animal product ko shaamil nahi karta.",
+        "Apne jism ko vegetarian choices ke saath poshida karen jaise ke avocado toast with cherry tomatoes ya phir quinoa and black bean breakfast bowl."
+      ]
+    },
+    {
+      "tag": "nashta_option4",
+      "patterns": ["Gluten free nashta", "Celiac friendly morning meal", "Gluten conscious options"],
+      "responses": [
+        "Apna din gluten-free shuru karen! Kuchh aise options hain jaise ke gluten-free oats with mixed berries ya phir sweet potato and kale breakfast hash.",
+        "Gluten-conscious diet ko support karen choices ke saath jaise ke gluten-free banana bread muffin ya phir yogurt parfait with gluten-free granola.",
+        "Apne jism ko gluten-free options ke saath poshida karen jaise ke vegetable and egg quinoa bowl ya phir gluten-free smoothie jo almond milk se banaya gaya hai."
+      ]
+    },
+    {
+      "tag": "nashta_option5",
+      "patterns": ["Quick and easy nashta", "Effortless morning meal", "Time friendly options"],
+      "responses": [
+        "Agar aapke paas kam samay hai toh chunen quick and easy nashta choices jaise ke peanut butter and banana wrap ya phir pre-made breakfast smoothie.",
+        "Apne subah ke routine ko simplify karen time-friendly options ke saath jaise ke make-ahead chia seed pudding ya phir yogurt parfait with pre-cut fruits.",
+        "Apne aap ko busy subahon mein poshida karen easy nashton ke saath jaise ke grab-and-go protein bar ya phir pre-packaged fruit and nut mix."
+      ]
+    },
+    {
+      "tag": "nashta_option6",
+      "patterns": ["Low carb nashta", "Carb conscious morning meal", "Low carbohydrate options"],
+      "responses": [
+        "Rakhen ise low-carb subah mein! Kuchh aise options hain jaise ke smoked salmon and cream cheese roll-up ya phir vegetable and cheese frittata.",
+        "Low-carbohydrate lifestyle ko support karen choices ke saath jaise ke cauliflower and broccoli breakfast casserole ya phir spinach and feta egg muffin.",
+        "Apna din shuru karen low-carb options ke saath jaise ke keto-friendly smoothie ya phir avocado and bacon breakfast salad."
+      ]
+    },
+    {
+      "tag": "nashta_option7",
+      "patterns": ["Energizing nashta", "Wake-up morning meal", "Energy boosting options"],
+      "responses": [
+        "Apni energy ko boost karen subah! Kuchh aise energizing nashta choices hain jaise ke green tea and berry smoothie ya phir matcha-infused oatmeal bowl.",
+        "Apne din ko fuel karen wake-up options ke saath jaise ke citrus and yogurt parfait ya phir high-energy protein smoothie with a hint of caffeine.",
+        "Apne aap ko nourish karen energy-boosting options ke saath jaise ke breakfast trail mix with nuts and dried fruits ya phir quick shot of wheatgrass."
+      ]
+    },
+    {
+      "tag": "nashta_option8",
+      "patterns": ["Kid friendly nashta", "Child approved morning meal", "Family friendly options"],
+      "responses": [
+        "Bachon ke liye banayen subahon ko mazedar! Kuchh kid-friendly nashta options hain jaise ke whole grain banana pancakes ya phir colorful fruit skewer with yogurt dip.",
+        "Family nashton ko optimize karen child-approved choices ke saath jaise ke peanut butter and jelly sandwich on whole wheat bread ya phir yogurt parfait bar with various toppings.",
+        "Apne chhote bachon ko nourish karen family-friendly options ke saath jaise ke fruit and cheese breakfast quesadilla ya phir playful cereal and milk smoothie."
+      ]
+    },
+    {
+      "tag": "nashta_option9",
+      "patterns": ["Post workout nashta", "Recovery morning meal", "Exercise friendly options"],
+      "responses": [
+        "Refuel karen workout ke baad post-workout nashta choices ke saath! Kuchh options hain jaise ke protein-packed smoothie bowl ya phir whole grain toast with almond butter and banana slices.",
+        "Recovery ko support karen exercise-friendly choices ke saath jaise ke cottage cheese and pineapple parfait ya phir recovery shake jo protein powder aur berries se bana hai.",
+        "Apne jism ko nourish karen post-exercise options ke saath jaise ke Greek yogurt and granola parfait ya phir turkey and avocado breakfast wrap."
+      ]
+    },
+    {
+      "tag": "nashta_option10",
+      "patterns": ["Savory nashta ideas", "Salty morning meal", "Savory options"],
+      "responses": [
+        "Satisfy karen savory cravings subah! Kuchh aise options hain jaise ke breakfast burrito with eggs and black beans ya phir savory vegetable and cheese muffin.",
+        "Apne subah ko optimize karen salty choices ke saath jaise ke smoked salmon and cream cheese bagel ya phir vegetable and feta breakfast quiche.",
+        "Apne aap ko nourish karen savory options ke saath jaise ke spinach and mushroom omelet ya phir caprese-style avocado toast."
+      ]
+    },
+    {
+      "tag": "nashta_option11",
+      "patterns": ["Sweet nashta treats", "Dessert inspired morning meal", "Sweet options"],
+      "responses": [
+        "Khayen sweet nashta treats subah! Kuchh aise options hain jaise ke banana and chocolate chip muffin ya phir berry and cream cheese-stuffed French toast.",
+        "Apne subah ko optimize karen dessert-inspired choices ke saath jaise ke cinnamon roll oatmeal bowl ya phir fruit and yogurt parfait with honey drizzle.",
+        "Apne sweet tooth ko nourish karen options ke saath jaise ke chocolate banana smoothie ya phir vanilla and strawberry breakfast sundae."
+      ]
+    },
+    {
+      "tag": "nashta_option12",
+      "patterns": ["High fiber nashta", "Fiber rich morning meal", "Digestive friendly options"],
+      "responses": [
+        "Support karen digestive health high-fiber nashta choices ke saath! Kuchh options hain jaise ke bran muffin with dried fruits ya phir fiber-rich cereal with almond milk.",
+        "Apne subah ko optimize karen digestive-friendly choices ke saath jaise ke chia seed and berry smoothie ya phir whole grain toast with peanut butter and sliced apples.",
+        "Apne digestive system ko nourish karen options ke saath jaise ke quinoa and mixed nuts breakfast bowl ya phir high-fiber fruit and nut bar."
+      ]
+    },
+    {
+      "tag": "nashta_option13",
+      "patterns": ["Low sugar nashta", "Sugar conscious morning meal", "Low sweetness options"],
+      "responses": [
+        "Shuru karen apna din low-sugar options ke saath! Kuchh options hain jaise ke sugar-free yogurt parfait with fresh berries ya phir low-sweetness smoothie with greens and lemon.",
+        "Apne subah ko optimize karen sugar-conscious choices ke saath jaise ke low-sugar granola bar ya phir cottage cheese and peach bowl with minimal added sweeteners.",
+        "Apne aap ko nourish karen low-sweetness options ke saath jaise ke green tea and almond chia pudding ya phir low-sugar oatmeal with nuts and seeds."
+      ]
+    },
+    {
+      "tag": "nashta_option14",
+      "patterns": ["Mood boosting nashta", "Emotional wellness morning meal", "Happy options"],
+      "responses": [
+        "Enhance karen apna mood breakfast choices ke saath jo emotional wellness ko promote karte hain! Kuchh options hain jaise ke serotonin-boosting banana and walnut smoothie ya phir mood-boosting dark chocolate and berry parfait.",
+        "Apne subah ko optimize karen happy choices ke saath jaise ke mood-lifting orange and mango smoothie ya phir breakfast bowl with mood-boosting berries and nuts.",
+        "Apne emotional well-being ko nourish karen options ke saath jaise ke happiness-inducing pineapple and coconut yogurt bowl ya phir mood-enhancing cinnamon and apple oatmeal."
+      ]
+    },
+    {
+      "tag": "nashta_option15",
+      "patterns": ["Low calorie nashta", "Calorie conscious morning meal", "Light options"],
+      "responses": [
+        "Shuru karen apna din light note par low-calorie nashta choices ke saath! Kuchh options hain jaise ke fruit and vegetable smoothie bowl ya phir light egg white and vegetable omelet.",
+        "Apne subah ko optimize karen calorie-conscious choices ke saath jaise ke low-calorie Greek yogurt parfait ya phir vegetable and hummus breakfast wrap.",
+        "Apne aap ko nourish karen low-calorie options ke saath jaise ke calorie-friendly fruit salad ya phir light whole grain toast with cream cheese and cucumber slices."
+      ]
+    },
+    {
+      "tag": "nashta_option16",
+      "patterns": ["Hydrating nashta", "Water rich morning meal", "Fluid filled options"],
+      "responses": [
+        "Rehnen apne aap ko hydrated nashta choices ke saath! Kuchh options hain jaise ke hydrating watermelon and cucumber smoothie ya phir refreshing coconut water and fruit bowl.",
+        "Apne subah ko optimize karen fluid-filled choices ke saath jaise ke hydrating green tea and mint smoothie ya phir water-rich citrus and berry breakfast salad.",
+        "Apne aap ko nourish karen options ke saath jaise ke hydration-boosting celery and apple juice ya phir morning coconut water and chia seed pudding."
+      ]
+    },
+    {
+      "tag": "nashta_option17",
+      "patterns": ["Breakfast for weight loss", "Weight conscious morning meal", "Slimming options"],
+      "responses": [
+        "Support karen apne weight loss goals ke liye breakfast choices ke saath jaise ke protein-packed smoothie ya phir veggie and egg scramble.",
+        "Apne subah ko optimize karen weight loss ke liye slimming options ke saath jaise ke low-calorie fruit salad ya phir weight-conscious Greek yogurt parfait.",
+        "Apne aap ko nourish karen options ke saath jaise ke metabolism-boosting green tea and avocado smoothie ya phir weight-friendly vegetable and quinoa breakfast bowl."
+      ]
+    },
+    {
+      "tag": "nashta_option18",
+      "patterns": ["Dairy free nashta", "No dairy morning meal", "Dairy conscious options"],
+      "responses": [
+        "Dairy-free nashta ke liye, try karen options jaise ke almond milk smoothies, coconut yogurt with fruit, ya phir dairy-free protein shake.",
+        "Apne subah ko optimize karen without dairy ke saath choices jaise ke dairy-free chia seed pudding ya phir coconut milk and berry smoothie.",
+        "Apne aap ko nourish karen dairy-conscious options ke saath jaise ke lactose-free vegetable and tofu scramble ya phir dairy-free avocado and banana breakfast smoothie."
+      ]
+    },
+    {
+      "tag": "nashta_option19",
+      "patterns": ["Filling nashta ideas", "Satisfying morning meals", "Hearty options"],
+      "responses": [
+        "Rehnen satisfied until lunch ke liye filling nashta choices ke saath "
+      ]    
+    },
+    {
+      "tag": "dopahar-ka-option1",
+      "patterns": ["Sehatmand dopahar ka intikhab", "Nutritious dopahar ki options", "Aqalmand dopahar ki khayalat"],
+      "responses": [
+        "Apni jism ko sehatmand dopahar ka intikhab karain, jese ke grilled salmon with quinoa aur roasted sabziyan.",
+        "Apne dopahar ki dawat ko aqalmand salad ke sath behtar banayein, jisme mix greens, cherry tomatoes, avocado, aur ek halki protein sourse shamil ho.",
+        "Apne jism ko aqalmand dopahar ki pasandidgi se nawazain, jese ke vegetable stir-fry with tofu ya phir lean turkey aur sabziyon ke sath whole grain wrap."
+      ]
+    },
+    {
+      "tag": "dopahar_ka_option2",
+      "patterns": ["Kam calorie wala dopahar", "Calorie conscious dopahar ki khayalat", "Halka dopahar ki options"],
+      "responses": [
+        "Apna dopahar halka aur kam calorie ke sath guzarain, jese ke colorful vegetable soup ya phir salad with light vinaigrette dressing.",
+        "Apne dopahar ko calorie-conscious option ke sath behtar banayein, jese ke grilled chicken and vegetable skewer plate ya quinoa salad with citrus dressing.",
+        "Halka dopahar enjoy karein, jese ke tuna salad lettuce wrap ya vegetable and hummus platter ke sath."
+      ]
+    },
+    {
+      "tag": "dopahar_ka_option3",
+      "patterns": ["Vegetarian dopahar ki khayalat", "Plant based dopahar", "Meatless options for dopahar"],
+      "responses": [
+        "Vegetarian dopahar ki options explore karein, jese ke chickpea and vegetable curry ya quinoa and black bean bowl.",
+        "Apne jism ko plant-based goodness se nawazain, jese ke lentil and vegetable stir-fry ya Mediterranean-style stuffed bell pepper.",
+        "Meatless dopahar ki mithas enjoy karein, jese ke caprese salad with fresh mozzarella ya spinach and feta stuffed portobello mushroom."
+      ]
+    },
+    {
+      "tag": "dopahar_ka_option4",
+      "patterns": ["Protein se bharpoor dopahar", "High protein dopahar ki khayalat", "Jism ki madad ke liye dopahar"],
+      "responses": [
+        "Apne muscles ko protein se bharpoor dopahar se support karein, jese ke grilled chicken breast with quinoa ya turkey and avocado wrap.",
+        "Apne dopahar ko high-protein choices ke sath behtar banayein, jese ke salmon and broccoli bowl ya lentil and vegetable protein salad.",
+        "Nourish karein apne jism ko protein se bharpoor lunch options ke sath, jese ke shrimp and vegetable stir-fry ya Greek yogurt and berry parfait."
+      ]
+    },
+    {
+      "tag": "dopahar_ka_option5",
+      "patterns": ["Gluten-free dopahar", "Celiac friendly dopahar ki khayalat", "Gluten se azadi wale dopahar ke options"],
+      "responses": [
+        "Gluten-free dopahar ki choices explore karein, jese ke quinoa and roasted vegetable bowl ya grilled shrimp and avocado salad.",
+        "Apne dopahar ko gluten-free options ke sath behtar banayein, jese ke chicken and vegetable curry with cauliflower rice ya gluten-free wrap with turkey and veggies.",
+        "Azadi se mukt dopahar enjoy karein, jese ke spinach and goat cheese omelet ya gluten-free pasta salad with fresh herbs ke sath."
+      ]
+    },{
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "¿Hay alguien ahí?",
+        "Hola",
+        "Buen día"
+      ],
+      "responses": [
+        "¡Hola! ¿Cómo puedo ayudarte con tus necesidades nutricionales hoy?",
+        "¡Hola! Estoy aquí para ayudarte con nutrición. ¿En qué puedo ayudarte?",
+        "¡Buen día! Soy tu chatbot de nutrición. ¿Cómo puedo apoyarte?"
+      ]
+    },
+    {
+      "tag": "¿cómo_estás",
+      "patterns": [
+        "¿Cómo estás?",
+        "¿Cómo te encuentras?",
+        "¿Cómo va tu día?"
+      ],
+      "responses": [
+        "Soy un chatbot, así que no tengo sentimientos, ¡pero estoy aquí y listo para ayudarte con tus preguntas de nutrición!"
+      ]
+    },
+    {
+      "tag": "buena_respuesta",
+      "patterns": [
+        "Estoy bien",
+        "Estoy bien",
+        "Estoy bien",
+        "Estoy bien",
+        "Estoy bien"
+      ],
+      "responses": [
+        "¡Qué bueno saber que estás bien! ¿Cómo puedo ayudarte a mantener un estilo de vida saludable?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Adiós", "Hasta luego", "Adiós"],
+      "responses": [
+        "¡Adiós! Si tienes más preguntas de nutrición, no dudes en volver en cualquier momento.",
+        "¡Hasta luego! ¡Mantente saludable!"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["Gracias", "Gracias", "Eso es útil", "¡Muchas gracias!", "thx", "thnks"],
+      "responses": ["¡De nada! Si tienes más preguntas, no dudes en preguntar."]
+    },
+    {
+      "tag": "nutrientes",
+      "patterns": [
+        "¿Cuáles son los nutrientes esenciales?",
+        "Háblame de los macronutrientes",
+        "¿Qué son los micronutrientes?",
+        "¿Por qué son importantes las vitaminas?",
+        "Importancia de los minerales en la dieta"
+      ],
+      "responses": [
+        "Los nutrientes esenciales incluyen macronutrientes (carbohidratos, proteínas, grasas) y micronutrientes (vitaminas y minerales). Son cruciales para la salud y el bienestar general."
+      ]
+    },
+    {
+      "tag": "dieta_saludable",
+      "patterns": [
+        "¿Qué constituye una dieta saludable?",
+        "Háblame de una dieta equilibrada",
+        "Cómo comer saludable",
+        "Guía para una dieta nutritiva"
+      ],
+      "responses": [
+        "Una dieta saludable incluye una variedad de frutas, verduras, proteínas magras, granos enteros y grasas saludables. Es importante equilibrar tus comidas y mantenerte hidratado."
+      ]
+    },
+    {
+      "tag": "pérdida_de_peso",
+      "patterns": [
+        "¿Cómo perder peso?",
+        "Consejos para bajar de peso",
+        "Estrategias efectivas para bajar de peso",
+        "Pérdida de peso saludable"
+      ],
+      "responses": [
+        "La pérdida de peso implica una combinación de una dieta equilibrada, ejercicio regular y mantener un déficit calórico. Consulta a un profesional de la salud para obtener consejos personalizados."
+      ]
+    },
+    {
+      "tag": "suplementos_nutricionales",
+     " patterns": [
+        "¿Son necesarios los suplementos nutricionales?",
+        "¿Debería tomar suplementos?",
+        "Guía de suplementos dietéticos"
+      ],
+      "responses": [
+        "Los suplementos nutricionales pueden ser necesarios en casos específicos, pero es mejor obtener nutrientes de una dieta equilibrada. Consulta con un profesional de la salud antes de tomar suplementos."
+      ]
+    },
+    {
+      "tag": "alergias",
+      "patterns": [
+        "Manejo de las alergias alimentarias",
+        "Nutrición para personas con alergias",
+        "Dietas sin alérgenos"
+      ],
+      "responses": [
+        "Manejar las alergias alimentarias implica evitar alimentos desencadenantes, leer etiquetas cuidadosamente y consultar con un profesional de la salud para obtener consejos personalizados."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno1",
+      "patterns": ["Opciones de desayuno saludables", "Comida matutina nutritiva", "Opciones centradas en la salud"],
+      "responses": [
+        "¡Inicia tu día con un desayuno nutritivo! Prueba opciones como un parfait de yogur griego con bayas frescas o un tazón de batido lleno de verduras y frutas.",
+        "Alimenta tu cuerpo con opciones de desayuno centradas en la salud, como un pudín de semillas de chía con leche de almendras o una tostada integral con aguacate y huevos pochados.",
+        "Nutre tu cuerpo por la mañana con opciones ricas en nutrientes, como un tazón de quinoa y frutas o una tortilla de claras de huevo con verduras."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno2",
+      "patterns": ["Desayuno rico en proteínas", "Comida matutina alta en proteínas", "Opciones ricas en proteínas"],
+      "responses": [
+        "¡Energiza tu mañana con opciones ricas en proteínas! Considera un batido de proteínas con espinacas y crema de almendra o un burrito de desayuno cargado con carnes magras y verduras.",
+        "Apoya la salud muscular con opciones de desayuno ricas en proteínas como un tazón de requesón con frutas o un revuelto de pavo y verduras.",
+        "Comienza tu día con desayunos ricos en proteínas como un bagel de salmón y queso crema o una pila de panqueques de proteínas con yogur griego."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno3",
+      "patterns": ["Ideas de desayuno vegetariano", "Comida matutina sin carne", "Opciones vegetarianas"],
+      "responses": [
+        "Disfruta de una mañana sin carne con ideas de desayuno vegetariano. Prueba una tortilla repleta de verduras, avena nocturna con leche de almendra o un salteado de tofu y verduras para el desayuno.",
+        "Alimenta tu día con opciones a base de plantas como una frittata de espinacas y champiñones o un tazón de batido sin productos animales.",
+        "Nutre tu cuerpo con elecciones vegetarianas como tostadas de aguacate con tomates cherry o un tazón de desayuno con quinoa y frijoles negros."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno4",
+      "patterns": ["Desayuno sin gluten", "Comida matutina amigable con el celiaco", "Opciones conscientes del gluten"],
+      "responses": [
+        "¡Comienza tu día sin gluten! Considera opciones como avena sin gluten con bayas mixtas o un hash de batata y col rizada para el desayuno.",
+        "Apoya una dieta consciente del gluten con opciones como un muffin de plátano sin gluten o un parfait de yogur con granola sin gluten.",
+        "Nutre tu cuerpo con opciones sin gluten como un tazón de quinoa y huevo con verduras o un batido sin gluten hecho con leche de almendra."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno5",
+      "patterns": ["Desayuno rápido y fácil", "Comida matutina sin esfuerzo", "Opciones amigables con el tiempo"],
+      "responses": [
+        "¿Con poco tiempo? Opta por opciones de desayuno rápidas y fáciles como un wrap de crema de cacahuate y plátano o un batido de desayuno prehecho.",
+        "Simplifica tu rutina matutina con opciones amigables con el tiempo, como un pudín de semillas de chía preparado con anticipación o un parfait de yogur con frutas pre-cortadas.",
+        "Nutrete en las mañanas ocupadas con desayunos fáciles como una barra de proteínas para llevar o una mezcla de frutas y frutos secos preenvasada."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno6",
+      "patterns": ["Desayuno bajo en carbohidratos", "Comida matutina consciente de los carbohidratos", "Opciones bajas en carbohidratos"],
+      "responses": [
+        "¡Mantén bajo en carbohidratos por la mañana! Considera opciones como un rollito de salmón ahumado y queso crema o una frittata de verduras y queso.",
+        "Apoya un estilo de vida bajo en carbohidratos con opciones como un cazuela de coliflor y brócoli para el desayuno o un muffin de huevo con espinacas y feta.",
+        "Comienza tu día con opciones bajas en carbohidratos como un batido keto-friendly o una ensalada de desayuno con aguacate y tocino."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno7",
+      "patterns": ["Desayuno energizante", "Comida matutina para despertar", "Opciones estimulantes"],
+      "responses": [
+        "¡Aumenta tu energía por la mañana! Prueba opciones energizantes como un batido de té verde y bayas o un tazón de avena infusionado con matcha.",
+        "Alimenta tu día con opciones para despertar, como un parfait cítrico y yogur o un batido de proteínas de alta energía con un toque de cafeína.",
+        "Nutrete con opciones que estimulan la energía, como una mezcla de frutos secos y frutas secas para el desayuno o un rápido shot de wheatgrass."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno8",
+      "patterns": ["Desayuno amigable para niños", "Comida matutina aprobada por niños", "Opciones aptas para toda la familia"],
+      "responses": [
+        "¡Haz las mañanas divertidas para los niños! Considera opciones de desayuno aptas para niños, como panqueques de plátano integral o una brocheta de frutas coloridas con salsa de yogur.",
+        "Optimiza los desayunos familiares con elecciones aprobadas por niños, como un sándwich de crema de cacahuate y jalea en pan integral o un bar de parfait de yogur con diversos ingredientes para agregar.",
+        "Nutre a los más pequeños con opciones aptas para toda la familia, como una quesadilla de desayuno con frutas y queso o un batido juguetón de cereales y leche."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno9",
+      "patterns": ["Desayuno post entrenamiento", "Comida matutina de recuperación", "Opciones aptas para el ejercicio"],
+      "responses": [
+        "¡Recupérate después de hacer ejercicio con opciones de desayuno post-entrenamiento! Prueba opciones como un tazón de smoothie rico en proteínas o tostadas integrales con crema de almendra y rodajas de plátano.",
+        "Apoya la recuperación con opciones aptas para el ejercicio, como un parfait de requesón y piña o un batido de recuperación con proteínas en polvo y bayas.",
+        "Nutre tu cuerpo después de hacer ejercicio con opciones como un parfait de yogur griego y granola o un wrap de desayuno con pavo y aguacate."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno10",
+      "patterns": ["Ideas de desayuno salado", "Comida matutina salada", "Opciones saladas"],
+      "responses": [
+        "Satisface los antojos salados por la mañana. Considera opciones como un burrito de desayuno con huevos y frijoles negros o un muffin salado de verduras y queso.",
+        "Optimiza tu mañana con elecciones saladas, como un bagel de salmón ahumado y queso crema o una quiche de desayuno con verduras y feta.",
+        "Nutrete con opciones saladas como una tortilla de espinacas y champiñones o un tostado de aguacate al estilo caprese."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno11",
+      "patterns": ["Dulces para el desayuno", "Comida matutina inspirada en postres", "Opciones dulces"],
+      "responses": [
+        "¡Déjate llevar por dulces para el desayuno! Prueba opciones como un muffin de plátano y chispas de chocolate o un French toast relleno de bayas y queso crema.",
+        "Optimiza tu mañana con elecciones inspiradas en postres, como un tazón de avena con sabor a rollo de canela o un parfait de frutas y yogur con miel.",
+        "Nutre tu gusto por lo dulce con opciones como un batido de plátano y chocolate o un sundae de desayuno con vainilla y fresas."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno12",
+      "patterns": ["Desayuno alto en fibra", "Comida matutina rica en fibra", "Opciones amigables con la digestión"],
+      "responses": [
+        "Apoya la salud digestiva con opciones de desayuno alto en fibra. Prueba opciones como un muffin de salvado con frutas secas o un cereal rico en fibra con leche de almendras.",
+        "Optimiza tu mañana con elecciones amigables con la digestión, como un batido de semillas de chía y bayas o una tostada integral con mantequilla de cacahuate y rodajas de manzana.",
+        "Nutre tu sistema digestivo con opciones como un tazón de quinoa y nueces mixtas o una barra de frutas y frutos secos rica en fibra."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno13",
+      "patterns": ["Desayuno bajo en azúcar", "Comida matutina consciente del azúcar", "Opciones con baja dulzura"],
+      "responses": [
+        "¡Comienza tu día con opciones bajas en azúcar! Considera elecciones como un parfait de yogur sin azúcar con bayas frescas o un batido con poca dulzura con verduras verdes y limón.",
+        "Optimiza tu mañana con elecciones conscientes del azúcar, como una barra de granola baja en azúcar o un tazón de requesón con duraznos con mínimos edulcorantes añadidos.",
+        "Nutrete con opciones de baja dulzura, como un pudín de chía y almendra con té verde o una avena baja en azúcar con nueces y semillas."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno14",
+      "patterns": ["Desayuno que mejora el estado de ánimo", "Comida matutina para el bienestar emocional", "Opciones felices"],
+      "responses": [
+        "Mejora tu estado de ánimo con opciones de desayuno que promueven el bienestar emocional. Prueba opciones como un batido de plátano y nueces que impulsa la serotonina o un parfait de chocolate oscuro y bayas que eleva el ánimo.",
+        "Optimiza tu mañana con elecciones felices, como un batido de naranja y mango que eleva el ánimo o un tazón de desayuno con bayas y nueces que potencia el buen humor.",
+        "Nutrete para el bienestar emocional con opciones como un tazón de coco y piña que induce la felicidad o una avena de canela y manzana que mejora el estado de ánimo."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno15",
+      "patterns": ["Desayuno bajo en calorías", "Comida matutina consciente de las calorías", "Opciones ligeras"],
+      "responses": [
+        "¡Comienza tu día de manera ligera con opciones de desayuno bajas en calorías! Considera opciones como un tazón de batido de frutas y verduras o una omeleta ligera de claras de huevo y verduras.",
+        "Optimiza tu mañana con elecciones conscientes de las calorías, como un parfait de yogur griego bajo en calorías o un wrap de desayuno con verduras y hummus.",
+        "Nutrete con opciones bajas en calorías, como una ensalada de frutas baja en calorías o una tostada ligera de pan integral con queso crema y rodajas de pepino."
+      ]
+    },
+    {
+      "tag": "opcion_desayuno16",
+      "patterns": ["Desayuno hidratante", "Comida matutina rica en agua", "Opciones llenas de líquidos"],
+      "responses": [
+        "Mantente hidratado con opciones de desayuno ricas en líquidos. Prueba opciones"
+      ] 
+     } ,
+     {
+      "tag": "almuerzo_opcion1",
+      "patterns": ["Opciones de almuerzo saludables", "Opciones de almuerzo nutritivas", "Ideas inteligentes para el almuerzo"],
+      "responses": [
+        "Alimenta tu cuerpo con un almuerzo nutritivo eligiendo opciones como salmón a la parrilla con quinoa y verduras asadas.",
+        "Optimiza tu comida del mediodía con una ensalada saludable con hojas mixtas, tomates cherry, aguacate y una fuente de proteínas magras.",
+        "Nutre tu cuerpo con una elección inteligente para el almuerzo, como un salteado de verduras con tofu o un wrap integral con pavo magro y verduras."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion2",
+      "patterns": ["Almuerzo bajo en calorías", "Ideas conscientes de calorías para el almuerzo", "Opciones de almuerzo ligero"],
+      "responses": [
+        "Mantén tu almuerzo ligero y bajo en calorías con opciones como una colorida sopa de verduras o una ensalada con aderezo de vinagreta ligera.",
+        "Optimiza tu comida del mediodía con una opción consciente de calorías, como un plato de brochetas de pollo a la parrilla y verduras o una ensalada de quinoa con aderezo cítrico.",
+        "Disfruta de un almuerzo ligero con opciones como una envoltura de ensalada de atún o una bandeja de verduras y hummus."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion3",
+      "patterns": ["Ideas vegetarianas para el almuerzo", "Almuerzo a base de plantas", "Opciones sin carne para el almuerzo"],
+      "responses": [
+        "Explora opciones vegetarianas para el almuerzo con platos como un curry de garbanzos y verduras o un tazón de quinoa y frijoles negros.",
+        "Nutre tu cuerpo con bondades a base de plantas, como un salteado de lentejas y verduras o un pimiento relleno al estilo mediterráneo.",
+        "Disfruta de una comida sin carne a mediodía con opciones como una ensalada caprese con mozzarella fresca o un portobello relleno de espinacas y feta."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion4",
+      "patterns": ["Almuerzo alto en proteínas", "Ideas de almuerzo alto en proteínas", "Almuerzo para el soporte muscular"],
+      "responses": [
+        "Apoya tus músculos con un almuerzo rico en proteínas, que incluye opciones como pechuga de pollo a la parrilla con quinoa o un wrap de pavo y aguacate.",
+        "Optimiza tu comida del mediodía con opciones ricas en proteínas, como un tazón de salmón y brócoli o una ensalada de proteínas de lentejas y verduras.",
+        "Nutre tu cuerpo con opciones de almuerzo ricas en proteínas, como un salteado de camarones y verduras o un parfait de yogur griego y bayas."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion5",
+      "patterns": ["Almuerzo sin gluten", "Ideas para almuerzos aptos para celíacos", "Opciones sin gluten para el almuerzo"],
+      "responses": [
+        "Explora opciones de almuerzo sin gluten con platos como un tazón de quinoa y verduras asadas o una ensalada de camarones a la parrilla y aguacate.",
+        "Optimiza tu comida del mediodía con opciones sin gluten, como un curry de pollo y verduras con arroz de coliflor o un wrap sin gluten con pavo y verduras.",
+        "Disfruta de un almuerzo sin gluten con opciones como una tortilla de espinacas y queso de cabra o una ensalada de pasta sin gluten con hierbas frescas."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion6",
+      "patterns": ["Almuerzo rápido y fácil", "Ideas rápidas para el almuerzo", "Opciones convenientes para el almuerzo"],
+      "responses": [
+        "Ahorra tiempo con un almuerzo rápido y fácil como un wrap de pavo y hummus o un tazón de verduras y quinoa.",
+        "Optimiza tu comida del mediodía con opciones rápidas, como una ensalada griega con tiras de pollo pre-cocidas o un batido con proteína en polvo y bayas mixtas.",
+        "Disfruta de un almuerzo conveniente con opciones como un tarro de ensalada pre-hecha con una variedad de verduras o un rollo de papel de arroz con camarones y hierbas frescas."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion7",
+      "patterns": ["Almuerzo equilibrado", "Ideas bien equilibradas para el almuerzo", "Nutrición equilibrada para el almuerzo"],
+      "responses": [
+        "Logra el equilibrio en tu almuerzo con opciones como un tazón de granos equilibrado con proteínas magras, verduras y una fuente de grasas saludables.",
+        "Optimiza tu comida del mediodía con opciones bien equilibradas, como un salteado de quinoa y verduras con tofu o un wrap de pollo y aguacate con pan integral.",
+        "Nutre tu cuerpo con una nutrición equilibrada eligiendo opciones de almuerzo como una ensalada de kale y garbanzos con feta o un pita integral con hummus y verduras."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion8",
+      "patterns": ["Almuerzo energizante", "Almuerzo para energía sostenida", "Ideas de almuerzo con alta energía"],
+      "responses": [
+        "Impulsa tus niveles de energía con un almuerzo energizante, que incluye opciones como un wrap integral de pavo y espinacas o una ensalada de frijoles negros y maíz.",
+        "Optimiza tu comida del mediodía con opciones que proporcionan energía sostenida, como un tazón de quinoa y batata con verduras asadas o una ensalada de pollo a la parrilla y bayas.",
+        "Nutre tu cuerpo con opciones de almuerzo con alta energía como una ensalada de atún y frijoles blancos o un couscous integral con nueces mixtas y frutas secas."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion9",
+      "patterns": ["Almuerzo bajo en carbohidratos", "Ideas conscientes de carbohidratos para el almuerzo", "Opciones reducidas de carbohidratos para el almuerzo"],
+      "responses": [
+        "Explora opciones de almuerzo bajo en carbohidratos con platos como un salteado de fideos de calabacín y camarones o un plato de brochetas de pollo y verduras.",
+        "Optimiza tu comida del mediodía con opciones conscientes de carbohidratos, como un tazón de arroz de coliflor con pollo a la parrilla o una envoltura de lechuga con pavo y aguacate.",
+        "Disfruta de un almuerzo bajo en carbohidratos con opciones como una ensalada de salmón y espárragos o una ensalada griega con feta y aceitunas."
+      ]
+    },
+    {
+      "tag": "almuerzo_opcion10",
+      "patterns": ["Almuerzo saludable para el corazón", "Almuerzo para la salud cardiovascular", "Ideas conscientes para el corazón en el almuerzo"],
+      "responses": [
+        "Promueve la salud del corazón con opciones de almuerzo como un tazón de quinoa y salmón o una ensalada de espinacas y nueces con pollo a la parrilla.",
+        "Optimiza tu comida del mediodía con opciones saludables para el corazón, como una sopa de verduras y frijoles o un wrap integral con atún y aguacate.",
+        "Nutre tu corazón con opciones de almuerzo como una ensalada de kale y bayas con linaza o un salteado de pavo y verduras con aceite de oliva."
+      ]
+    } 
+  ]
+}
